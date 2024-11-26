@@ -4,7 +4,7 @@ var respecConfig =
   specStatus: "design",
   //specType: "HR",             // Handreiking
   //format: "markdown",         // Altijd "markdown"     
-  shortName: "gwsw-persleidingen", 	      // Wordt gebruikt in de document URL
+  shortName: "gwsw-gebruik", 	      // Wordt gebruikt in de document URL
   license: "cc0",
    
   editors: [{
@@ -14,26 +14,21 @@ var respecConfig =
     companyURL: "https://www.riool.net"
   }],
   authors: [{
-    name: "Johan Post",
-    url: "mailto:johan.post@urbanwater.nl",
-    company: "UrbanWater",
-    companyURL: "https://www.urbanwater.nl/"
-  },{
-    name: "Wouter van Riel",
-    url: "mailto:wouter.van.riel@infralytics.org",
-    company: "infralytics",
-    companyURL: "https://www.infralytics.org"
+    name: "Jordie Netten",
+    url: "mailto:jordie@netten-wateradvies.nl",
+    company: "Netten Wateradvies",
+    companyURL: "https://www.netten-wateradvies.nl/"
   }],
   otherLinks: [{
-    key: "GitHub", href: "https://github.com/stichtingrioned/gwsw-persleidingen/"
+    key: "GitHub", href: "https://github.com/stichtingrioned/gwsw-gebruik/"
   }],
   //github: "https://github.com/StichtingRIONED/GWSW"
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
   //issueBase: "https://github.com/StichtingRIONED/GWSW/issues/",
 
-  thisVersion: "https://stichtingrioned.github.io/gwsw-persleidingen/",
+  thisVersion: "https://stichtingrioned.github.io/gwsw-gebruik/",
   latestVersion: "", // gepubliceerde versie
-  edDraftURI: "https://stichtingrioned.github.io/gwsw-persleidingen/", // werkversie
+  edDraftURI: "https://stichtingrioned.github.io/gwsw-gebruik/", // werkversie
 
   maxTocLevel: 3, // Aantal niveau's ToC, default is 0/geen limiet
   level2: true, // mv: hoofdstuk-nummering alleen voor de subsections (20210212)
