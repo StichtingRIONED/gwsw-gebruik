@@ -1,2 +1,2 @@
-# gwsw-persleidingen
-GWSW Persleidingen - Deelmodel en toepassingen
+# gwsw-gebruik
+GWSW Gebruik - Een algemene toelichting
