@@ -20,7 +20,7 @@ De inhoudsopgave aan de linkerkant van de website kan gebruikt worden als leeswi
 Deze pagina is in het leven geroepen om riooldatabeheerders te ondersteunen in het gebruik van het GegevensWoordenboek Stedelijk Water (GWSW). Dit willen we doen door middel van een laagdrempelig stappenplan.
 Het GWSW komt ingewikkeld over en is dat ook op sommige vlakken. Als je onder de motorkap van een auto kijkt, dan komt dat ook ingewikkeld over. Het is echter niet nodig om precies te begrijpen hoe een auto helemaal werkt, om toch goed en veilig de auto te kunnen besturen. Zo werkt het ook met het GWSW.
 
-Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-&target=_blank) beschreven. In de volgende alinea staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of 
+Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) beschreven. In de volgende alinea staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of 
 zijn dagelijke praktijk (op operationeel niveau) gebruiken. Dit proberen we te doen aan de hand van instructies per rioolobject te geven in de vorm van filmpjes, figuren of teksten. 
 Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht:
 
@@ -32,7 +32,7 @@ Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware 
 
 Het GegevensWoordenboek Stedelijk Water is niets meer dan gezamenlijke afspraken over de taal, de verbanden tussen en de uitwisseling van gegevens die iets te maken hebben met het domein Stedelijk Water. Stichting RIONED heeft dit onderverdeeld in Model, Gegevens en Toepassingen.
 
-Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/&target=_blank) en bestaat uit:
+Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/) en bestaat uit:
 -	Woordenboek (Ontologie): Hoe noemen we ‘iets’?
 -	Datastructuur (Datamodel): Hoe zijn de verbanden of relaties tussen die ‘iets-en’?
 
@@ -40,7 +40,7 @@ De Gegevens staan op de GWSW-server en bestaan uit:
 -	Data-omgeving per organisatie
 -	In die data-omgeving staan de gegevens van die organisatie opgeslagen conform het GWSW
 
-De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/&target=_blank) en bestaan uit:
+De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en bestaan uit:
 -	Apps voor het uploaden van gegevens naar de GWSW-server
 -	Apps voor het controleren van gegevens op de GWSW-server
 -	Apps voor het opvragen van gegevens vanaf de GWSW-server
@@ -65,21 +65,21 @@ Om gebruik te kunnen maken van de voordelen van de GWSW moeten de gegevens vanui
 Met GWSW Apps kunnen gegevens worden geüpload naar de GWSW-server, worden gecontroleerd en worden opgevraagd vanaf de GWSW-server.
 
 ## Gegevens uploaden naar de GWSW-server
-Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geëxporteerd. Dit is een zogenoemd [GWSW-OroX bestand](https://apps.gwsw.nl/doc/GWSW.orox%20Opbouw%20dataset.pdf&target=_blank) en heeft als bestandsextentie *.ttl*. Dit uitwisselbestand kan via de upload-functionaliteit op [apps.gwsw.nl](https://apps.gwsw.nl/&target=_blank) in de data-omgeving van de betreffende gemeente op de GWSW-server worden gezet. Hiervoor is de naam van de data-omgeving en een wachtwoord (sleutel) nodig. Deze sleutel kan worden opgevraagd via gwsw@rioned.org.
+Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geëxporteerd. Dit is een zogenoemd [GWSW-OroX bestand](https://apps.gwsw.nl/doc/GWSW.orox%20Opbouw%20dataset.pdf) en heeft als bestandsextentie *.ttl*. Dit uitwisselbestand kan via de upload-functionaliteit op [apps.gwsw.nl](https://apps.gwsw.nl/) in de data-omgeving van de betreffende gemeente op de GWSW-server worden gezet. Hiervoor is de naam van de data-omgeving en een wachtwoord (sleutel) nodig. Deze sleutel kan worden opgevraagd via gwsw@rioned.org.
 
 De gegevens uit de kernregistratie van een waterschap worden via het GegevensKnooppunt Waterschappen naar de GWSW-server geüpload. 
 
 ## Gegevens controleren op de GWSW-server
-De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden gecontroleerd op basiskwaliteit en mate waarin deze voldoen aan de GWSW-standaard. Dit wordt gedaan met behulp van de toepassing [Nulmeting](https://apps.gwsw.nl/item_validate&target=_blank). 
+De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden gecontroleerd op basiskwaliteit en mate waarin deze voldoen aan de GWSW-standaard. Dit wordt gedaan met behulp van de toepassing [Nulmeting](https://apps.gwsw.nl/item_validate). 
 
-Omdat voor het lezen van het resultatenbestand technische kennis van het GWSW nodig is, kan je hiervoor het beste een [GWSW-adviseur inschakelen](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar&target=_blank).
+Omdat voor het lezen van het resultatenbestand technische kennis van het GWSW nodig is, kan je hiervoor het beste een [GWSW-adviseur inschakelen](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar).
 
 ## Gegevens opvragen van de GWSW-server
 De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden opgevraagd voor gebruik in externe applicaties/programma’s. 
-Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload&target=_blank). Voor andere toepassingen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo&target=_blank) voor verschillende thema’s worden gedownload of ontsloten.
+Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) voor verschillende thema’s worden gedownload of ontsloten.
 
 ## GWSW is in ontwikkeling
-Het is goed te beseffen dat het GWSW in ontwikkeling is, voor zowel het woordenboek, het datamodel en de uitwisseling. Met elke nieuwe versie komen er nieuwe mogelijkheden voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software&target=_blank).
+Het is goed te beseffen dat het GWSW in ontwikkeling is, voor zowel het woordenboek, het datamodel en de uitwisseling. Met elke nieuwe versie komen er nieuwe mogelijkheden voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
 
 De adoptie van het GWSW is een groeipad voor Stichting RIONED, de leveranciers van beheer- en rekenpakketten en de gebruikers. Dit heeft logischerwijs ook gevolgen voor het gebruik.
 
