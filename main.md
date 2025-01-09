@@ -50,20 +50,20 @@ Denk bij het GWSW aan een logistiek distributiecentrum van een bedrijf zoals Coo
 1)	Het een logische plek is in relatie tot ‘buur’-producten. Zo staat het witgoed en de bijbehorende aansluitslangen bij elkaar.
 2)	De bereikbaarheid aansluit op de vraag van de consument. ‘Hardlopers’ zullen normaliter voor in de hal staan. Producten die zelden besteld worden, zullen verder in de hal staan.
 
-De indeling van een distributiecentrum (Figuur 1) is een analogie van het GWSW-datamodel.
+De indeling van een distributiecentrum (Figuur 2.1) is een analogie van het GWSW-datamodel.
 
 <img src="media/figuur1_unsplash.jpg" style="width:40%;height:50%" />
 
-*Figuur 1 Voorbeeld van een distributiecentrum (foto door Ruchindra Gunasekara op Unsplash)*
+*Figuur 2.1 Voorbeeld van een distributiecentrum (foto door Ruchindra Gunasekara op Unsplash)*
 
 Op de GWSW-server staat er per organisatie een ‘GWSW-conform distributiecentrum’ klaar. Dit ‘distributiecentrum’ kan worden gevuld met gegevens uit het Stedelijk Water-domein. Als deze gegevens in de stellingen van het distributiecentrum zijn opgeslagen, dan kunnen ze worden gecontroleerd (denk aan een voorraadcontrole) en weer worden uitgeleverd (denk aan een bestelling uitleveren).
 
 ## Gegevens uitwisselen via de GWSW-server
-Om gebruik te kunnen maken van de voordelen van het GWSW moeten de gegevens vanuit het beheerpakket (gele blokjes aan de linkerkant) op de GWSW-server (grote grijze blok in het midden) komen te staan in de data-omgeving (het ‘distributiecentrum’) van de betreffende organisatie (blauwe cilinder). Vanuit daar kunnen de gegevens worden opgevraagd voor gebruik in externe applicaties (Figuur 2).
+Om gebruik te kunnen maken van de voordelen van het GWSW moeten de gegevens vanuit het beheerpakket (gele blokjes aan de linkerkant) op de GWSW-server (grote grijze blok in het midden) komen te staan in de data-omgeving (het ‘distributiecentrum’) van de betreffende organisatie (blauwe cilinder). Vanuit daar kunnen de gegevens worden opgevraagd voor gebruik in externe applicaties (Figuur 2.2).
 
 <img src="media/figuur2_GWSWserver.jpg" style="width:100%;height:50%" />
 
-*Figuur 2 Beheerapplicaties (links) met de verschillende datasets (gele blokken), de GWSW-server (grijze blok in het midden) met toepassingen (GWSW Apps) en gegevensopslag (GWSW Data) in een data-omgeving per organisatie (blauwe cilinders) en externe applicaties (rechts) die gebruik maken van de gegevens op de GWSW-server*
+*Figuur 2.2 Beheerapplicaties (links) met de verschillende datasets (gele blokken), de GWSW-server (grijze blok in het midden) met toepassingen (GWSW Apps) en gegevensopslag (GWSW Data) in een data-omgeving per organisatie (blauwe cilinders) en externe applicaties (rechts) die gebruik maken van de gegevens op de GWSW-server*
 
 Met GWSW Apps kunnen gegevens worden geüpload naar de GWSW-server, worden gecontroleerd en worden opgevraagd vanaf de GWSW-server.
 
@@ -141,15 +141,15 @@ Mocht jouw beheerpakket ontbreken in dit overzicht, neem dan contact op met gwsw
 
 <a name="brutis_versie"></a>
 **Brutis / Kikker (Riodesk)**
-Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (zie Figuur 3)
+Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (zie Figuur 3.1)
 
 <img src="media/figuur3_kikker.jpg" style="width:30%;height:50%" />
 
-*Figuur 3 Infovenster Kikker met daarin rood omcirkeld de versie
+*Figuur 3.1 Infovenster Kikker met daarin rood omcirkeld de versie*
 
-In Tabel 1 staat opgenomen welke versie Kikker/Brutis welke versie van het GWSW bevat.
+In Tabel 3.1 staat opgenomen welke versie Kikker/Brutis welke versie van het GWSW bevat.
 
-*Tabel 1 Versie Kikker en aansluiting op GWSW-versie* 
+*Tabel 3.1 Versie Kikker en aansluiting op GWSW-versie* 
 
 | Versie Kikker | Versie GWSW |
 |---------------|-------------|
@@ -236,3 +236,74 @@ Dit proberen we te doen aan de hand van instructies per rioolobject in de vorm v
 
 *Logo’s van meewerkende leveranciers worden hier ingevoegd* 
 
+## Stap 0: Begrijp het GWSW-datamodel een beetje
+Het GegevensWoordenboek Stedelijk Water is [online](https://data.gwsw.nl/1.6.1/Totaal/index.html?menu_item=classes) te vinden. Aan de linkerkant zit een boomstructuur, waarbij Fysiek Object relevant is voor de gegevens in het beheerpakket (Figuur 4.1). 
+
+<img src="media/figuur41_datastructuur.jpg" style="width:30%;height:50%" />
+
+*Figuur 4.1 GWSW structuur op data.gwsw.nl*
+
+Alle termen (concepten genoemd) die onder die tak zitten, zijn de officiële termen die in het GWSW zitten. Door op een term te klikken, kom je in het overzichtsveld van die term uit, waarin vaak een definitie en/of synoniem en/of afbeelding is opgenomen van die term. Let op: Navigeren doe je via de soortenboom of het broodkruimelpad (Figuur 4.2) en niet via de pagina-terug-knop van de browser.
+
+<img src="media/figuur42_broodkruimelpad.jpg" style="width:50%;height:50%" />
+
+*Figuur 4.2 Broodkruimelpad*
+
+Je kunt kiezen uit ‘de smaken’ van de soortenboom als je de terminologie gaat verbeteren. Let wel: Niet alles wat in de soortenboom zit, ‘moet’ in jouw gegevens te zitten. Maar als het erin zit, moet je het wel zo noemen in de export naar de GWSW-server.
+
+### Mapping in de beheersoftware
+Sommige beheersoftware biedt de mogelijkheid aan om naamgeving te koppelen aan GWSW concepten.
+
+In **Brutis** kan er een mapping worden aangemaakt waarin de koppeling wordt gelegd tussen de huidige naamgeving (in Brutis) en hoe het meegegeven moet worden in de export naar de GWSW-server (Figuur 4.3). Vanuit het principe ‘data bij de bron beheren’ is het advies om de objecten GWSW-conform te noemen in het beheerpakket.
+
+<img src="media/figuur43_mapping_brutis.jpg" style="width:50%;height:50%" />
+
+*Figuur 4.3 Mogelijkheid tot het aangeven van GWSW Domeinwaarden als 'mapping' tussen Brutis en het GWSW*
+
+## Stap 1: Verbeter de terminologie
+De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-server. Typfouten of een andere schrijfwijze ‘snapt’ de GWSW-server niet. Als voorbeeld: “Mof_spie” is fout. Het moet zijn “Mof/Spie”. De meeste beheerpakketten hebben hier voorgedefinieerde keuzelijsten voor.
+
+### Putten
+**Typologie put**
+In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd.
+
+*Tabel 4.1 Typologie put* 
+
+| Beerput                   | Kruisingsput            |
+| Blinde put                | Lozingsput              |
+| Infiltratieput            | Externe overstortput    |
+| Kolk                      | Interne overstortput    |
+| Bijzondere putconstructie | Verbeterde overstortput |
+| Doorspoelput              | Pompput                 |
+| Doorspuitput              | Pompunit                |
+| Inspectieput              | Stuwput                 |
+
+Van een overstortput moet dus altijd aangegeven worden of het om een “Externe overstortput”, “Interne overstortput” of “Verbeterde overstortput” gaat.
+Een pompput is een rioolput bestemd voor het verpompen van afvalwater. Een pompunit is daar een variant op. Dit is namelijk een pompput bestemd voor het verpompen van afvalwater in een drukrioleringsstelsel.
+
+**Materiaal put**
+Een put kan bestaan uit de volgende materialen:
+PM
+
+**Vorm put**
+Een put kan de volgende vorm hebben:
+PM
+
+**Maaiveldschematisering**
+Van een put moet worden opgenomen hoe deze kan uitwisselen met het maaiveld. Uit de volgende waarden kan je kiezen:
+PM
+
+### Leidingen
+**Typologie leidingen**
+In het GWSW moet een leiding tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd. De onderstaande termen/niveaus zijn zeker goed voor leiding.
+PM
+
+De leidingen die nu zijn voorzien van de typologie ‘Vrijverval rioolleiding’ of ‘Mechanische rioolleiding’, zullen dus nog verder moeten worden getypeerd.
+
+**Materiaal leiding**
+Een leiding kan bestaan uit de volgende materialen:
+PM
+
+**Vorm leiding**
+Een leiding kan de volgende vorm hebben:
+PM
