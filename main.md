@@ -52,7 +52,7 @@ Denk bij het GWSW aan een logistiek distributiecentrum van een bedrijf zoals Coo
 
 De indeling van een distributiecentrum (Figuur 1) is een analogie van het GWSW-datamodel.
 
-<img src="media/figuur1_unsplash.jpg" style="width:50%;height:50%" />
+<img src="media/figuur1_unsplash.jpg" style="width:40%;height:50%" />
 
 *Figuur 1 Voorbeeld van een distributiecentrum (foto door Ruchindra Gunasekara op Unsplash)*
 
@@ -100,7 +100,7 @@ Omdat het doel van voorliggende website is om riooldatabeheerders te ondersteune
 # Wat moet ik als riooldatabeheerder doen om het GWSW toe te passen in het gegevensbeheer?
 
 ## Inleiding
-Om het GWSW goed te kunnen gebruiken, moet je er als riooldatabeheerder voor zorgen dat de gegevens in jouw beheerpakket zo GWSW-conform-mogelijk op de GWSW-server terecht komen.  Hiervoor ben je enerzijds afhankelijk van de mogelijkheden van jouw **beheerpakket** en anderzijds afhankelijk van hoe jij de gegevens daarin **registreert**.
+Om het GWSW goed te kunnen gebruiken, moet je er als riooldatabeheerder voor zorgen dat de gegevens in jouw beheerpakket zo GWSW-conform-mogelijk op de GWSW-server terecht komen.  Hiervoor ben je enerzijds afhankelijk van de mogelijkheden van jouw [**beheerpakket**](#versie_beheerpakket) (Paragraaf 3.2) en anderzijds afhankelijk van hoe jij de gegevens daarin [**registreert**](#registratie) (Paragraaf 3.3).
 
 ## Ken je beheerpakket
 ### Algemeen
@@ -127,6 +127,7 @@ Naast de inspanningen van Stichting RIONED, zal ook de gebruiker de behoefte aan
 
 De applicatietoetsing – die elke twee jaar door Stichting RIONED wordt uitgevoerd – is bedoeld om de kwaliteit en consistentie van de GWSW-implementatie in softwareapplicaties te bepalen. De resultaten zijn echter een momentopname en gericht op de nieuwste versie van de software. In de eerste helft van 2025 staat de applicatietoetsing gepland.
 
+<a name="versie_beheerpakket"></a>
 ### Welke versie heeft mijn beheerpakket?
 Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van toepassing zijn. Dit zegt helaas niets over hoe goed de betreffende OroX is en voor welke toepassingen die dan geschikt is. Die informatie komt wel uit de Applicatietoetsing naar voren.
 Lijst van beheerpakketten
@@ -140,7 +141,25 @@ Mocht jouw beheerpakket ontbreken in dit overzicht, neem dan contact op met gwsw
 
 <a name="brutis_versie"></a>
 **Brutis / Kikker (Riodesk)**
-pm
+Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (zie Figuur 3)
+
+<img src="media/figuur3_kikker.jpg" style="width:30%;height:50%" />
+
+*Figuur 3 Infovenster Kikker met daarin rood omcirkeld de versie
+
+In Tabel 1 staat opgenomen welke versie Kikker/Brutis welke versie van het GWSW bevat.
+
+*Tabel 1 Versie Kikker en aansluiting op GWSW-versie* 
+
+| Versie Kikker | Versie GWSW |
+|---------------|-------------|
+| 5.4           | 1.5         |
+| 5.3           | 1.5         |
+| 4.0           | 1.4         |
+| 3.6           | 1.4         |
+
+Neem contact op met info@riodesk.nl om informatie te ontvangen over het updaten naar de nieuwste versie van BRUTIS / Kikker.
+
 
 <a name="gbi_versie"></a>
 **GBI (Antea group)**
@@ -157,3 +176,63 @@ pm
 <a name="riogl_versie"></a>
 **Rio GL / Obsurv (Sweco)**
 pm
+
+<a name="registratie"></a>
+## Zet jouw gegevens goed en GWSW-conform in het beheerpakket
+### Inleiding
+Gegevens kunnen enkel uitgewisseld worden, als deze (goed) in het beheerpakket staan. Bestaat een veld niet in het ‘distributiecentrum’ (datamodel) van het beheerpakket, dan kan deze ook niet worden ingevuld door de gebruiker. Hierover ging de [vorige paragraaf](#versie_beheerpakket) (Paragraaf 3.2). 
+
+Is een veld leeg, dan zal dit veld ook als ‘leeg’ worden meegenomen in de uitwisseling. Is een veld ingevuld met een ‘foute’ waarde (bijv. 999 wat vaak gebruikt wordt voor ‘onbekend’), dan zal dit veld ook als waarde ‘999’ worden meegenomen in de uitwisseling. Andere voorbeelden van ‘foute’ waarden zijn fouten door de eenheid (opslaan in millimeter, terwijl het pakket dat veld registreert in de eenheid meter) of door foute of onvolledige naamgeving (‘put’ in plaats van ‘inspectieput’). Kortom de **volledigheid** en **kwaliteit** van de geregistreerde gegevens moeten voldoende zijn om het gewenste resultaat te krijgen. De exportfunctionaliteit van het beheerpakket naar het OroX-exportbestand voert geen controles of correcties uit op de te exporteren gegevens.
+
+Daarnaast is het vaak zo dat de stelselgegevens in het beheerpakket zitten maar dat kunstwerken op een andere manier worden geregistreerd, zoals in GIS, excelbestanden, telemetriesysteem of gemalenbeheerprogramma’s. De (gegevens van) objecten die niet in het (stelsel-)beheerpakket zitten, komen dus ook niet met de export uit het beheerpakket mee. Helaas is het zo dat die andere registraties (nog) niet zijn aangesloten op het GWSW. Dus ook vanuit die registraties kunnen de gegevens niet GWSW-conform worden uitgewisseld.
+
+Dus wat kan jij, als riooldatabeheerder, doen om het gegevensbeheer in het beheerpakket zo doelmatig mogelijk in te richten, waarmee de gegevens aansluiten op het GWSW? Hiervoor hebben we een werkwijze voorzien van een stappenplan beschikbaar, waarmee jij kan bepalen op welke manier jij te werk wil gaan
+
+## Werkwijze om de rioleringsgegevens aan te passen aan het GWSW
+### Stapsgewijs met een plan
+Het is verstandig om rioleringsgegevens stapsgewijs (iteratief) aan te passen aan het GWSW. De belangrijkste en eerste stap in de verbetering van de rioleringsgegevens moet 1) het aansluiten op de terminologie van het GWSW zijn. Daarna kunnen de verbeteringen eventueel verder worden gebracht door 2) de resultaten van de GWSW-nulmeting qua plausibiliteit (bandbreedte van ingevulde waardes) te verwerken. Ook kan worden overwogen om van kunstwerken bepaalde objectinformatie wel mee te nemen in het beheerpakket (Stap 3). Een laatste stap kan zijn om 4) de schematisatie van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van bijvoorbeeld hydraulisch modelleren en het opstellen van afvalwaterprognoses. Dit is in de meeste beheerpakketten nog lastig.
+
+In het kader van de behapbaarheid en toepasbaarheid van het eindresultaat, wordt er nu met name ingegaan op Stap 1 Terminologie en Stap 2 Plausibiliteit. Deze bestaan ook weer uit kleine stapjes. Zie het kopje ‘Daadwerkelijke acties’ (LINK)voor wat hiermee moet worden gedaan.
+
+### Blokmutaties
+Elk object waarin een wijziging moet worden doorgevoerd, kan in het beheerpakket worden open geklikt, waarna in het nieuwe venster de wijziging kan worden doorgevoerd. Indien er veel mutaties nodig zijn, is dit echter een tijdrovende klus. 
+
+Een efficiënter alternatief is het uitvoeren van ‘blokmutaties’. Dit zijn mutaties die uitgevoerd worden op een hele groep (‘blok’) objecten tegelijkertijd. Hierbij geeft de gebruiker aan op welke objecten de mutatie moet worden uitgevoerd, en welke mutatie dit betreft (“Voor al deze objecten moet de typologie ‘Inspectieput’ zijn”). Blokmutaties kunnen in elk beheerpakket worden uitgevoerd.
+
+### Back up/werkomgeving/zandbak/testomgeving
+Alvorens aan de slag te gaan met het uitvoeren van (grootschalige) mutaties van de gegevens in het beheerpakket, is het belangrijk om na te denken over hoe terug te keren naar een goed bestand wanneer er fouten door (foutieve) mutaties ontstaan. Het is verstandig om (tenminste) twee omgevingen te hebben: Eentje met de correcte data en eentje waarin de mutaties gedaan worden. 
+
+Dit kan zijn: 
+- Een back up maken van de correcte data (Back up 1) en op het basisbestand (Basisbestand 1) de mutaties uit te voeren. Als de mutaties positief zijn gevalideerd, dan is het mutatiebestand het basisbestand (Basisbestand 2) voor de volgende ronde en kan back up 1 in principe worden verwijderd. Van Basisbestand 2 wordt dan weer een back up gemaakt (Back up 2) en op Basisbestand 2 worden weer mutaties uitgevoerd, waardoor Basisbestand 3 ontstaat.
+- De correcte data blijven gebruiken als basisbestand gedurende de mutaties. Daarnaast wordt er een kopie gemaakt van dit basisbestand. De kopie wordt neergezet in een werkomgeving/testomgeving (ook wel een ‘zandbak’ genoemd). In deze omgeving worden alle mutaties uitgevoerd en indien gewenst tussentijds gevalideerd of geback-upt. Na het uitvoeren van alle mutaties wordt dit werkbestand het basisbestand.
+
+### Zelf of laten doen
+Iedereen die weet hoe hij of zij mutaties kan doorvoeren in het beheerpakket, kan in principe de wijzigingen voor Stap 1 en 2 verwerken. In de praktijk zal het, ondanks blokmutaties, toch wel tijd en focus vragen. Daarom komt het ook voor dat hiervoor een externe partij wordt ingeschakeld.
+
+### Wat te doen bij ontbrekende gegevens
+Als de in te vullen waarden niet bekend is dan kan ervoor gekozen worden om 1) een aanname te doen, 2) veld leeg te laten, 3) veld in te vullen met ‘Onbekend’. Dit is een keuze aan de beheerder, maar de keuze moet wel consistent over de hele dataset worden uitgevoerd. Uiteraard moet bij een volgende reinigings- en inspectieronde de informatie wel in het veld worden opgenomen. Of er kan voor gekozen worden een specifieke inmeting te doen van dat object of kenmerk.
+
+### GWSW-Nulmeting
+Een GWSW-nulmeting is een krachtig, maar niet noodzakelijk middel om je op weg te helpen. De uitkomsten van een GWSW-Nulmeting kunnen je namelijk helpen inzicht te krijgen in een belangrijk deel van de ‘GWSW-fouten’ in jouw dataset. Daarnaast kan je met een tussentijdse Nulmeting de voortgang van jouw data-op-orde-project in beeld brengen en de focus daarvan bijsturen. 
+
+### Maak een Plan van Aanpak
+Stel op basis van bovenstaande punten een Plan van Aanpak op met daarin:
+- De gekozen werkwijze en de onderbouwing daarvan
+  - Back-up
+  - Zelf of laten doen
+  - Volgorde en focus (of methode om dat te bepalen)
+- Planning
+  - Tijdspad
+  - Monitoring van tussenresultaten
+- Raming
+  - Kosten
+  - Tijd
+
+Regel op basis van dit Plan van Aanpak het benodigde budget/tijd.
+
+# Stappenplan
+In onderstaand stappenplan staat beschreven op welke wijze de terminologie (stap 1) en plausibiliteit van de gegevens (stap 2) kan worden verbeterd. Hier voorafgaand wordt in stap 0 een toelichting gegeven op het datamodel (de inrichting van het distributiecentrum).
+Dit proberen we te doen aan de hand van instructies per rioolobject in de vorm van filmpjes, figuren en teksten. Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht. De volgende partijen werken daaraan mee:
+
+*Logo’s van meewerkende leveranciers worden hier ingevoegd* 
+
