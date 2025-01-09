@@ -20,7 +20,7 @@ De inhoudsopgave aan de linkerkant van de website kan gebruikt worden als leeswi
 Deze pagina is in het leven geroepen om riooldatabeheerders te ondersteunen in het gebruik van het GegevensWoordenboek Stedelijk Water (GWSW). Dit willen we doen door middel van een laagdrempelig stappenplan.
 Het GWSW komt ingewikkeld over en is dat ook op sommige vlakken. Als je onder de motorkap van een auto kijkt, dan komt dat ook ingewikkeld over. Het is echter niet nodig om precies te begrijpen hoe een auto helemaal werkt, om toch goed en veilig de auto te kunnen besturen. Zo werkt het ook met het GWSW.
 
-Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) beschreven. In de volgende alinea staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of 
+Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) beschreven. In de volgende paragraaf staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of 
 zijn dagelijke praktijk (op operationeel niveau) gebruiken. Dit proberen we te doen aan de hand van instructies per rioolobject te geven in de vorm van filmpjes, figuren of teksten. 
 Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht:
 
@@ -38,7 +38,7 @@ Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/) en bestaat uit:
 
 De Gegevens staan op de GWSW-server en bestaan uit:
 -	Data-omgeving per organisatie
--	In die data-omgeving staan de gegevens van die organisatie opgeslagen conform het GWSW
+-	In die data-omgeving staan de gegevens van die organisatie opgeslagen conform het GWSW-model
 
 De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en bestaan uit:
 -	Apps voor het uploaden van gegevens naar de GWSW-server
@@ -46,20 +46,23 @@ De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en 
 -	Apps voor het opvragen van gegevens vanaf de GWSW-server
 
 ## Illustratief voorbeeld – Een distributiecentrum
-Denk bij het GWSW aan een logistiek distributiecentrum van een bedrijf zoals Coolblue of BOL. Een distributiecentrum is zo ingericht dat het een logische en (daardoor) efficiënte opslag van spullen is. Elk product heeft zijn eigen plek. En die plek is daar, omdat:
+Denk bij het GWSW aan een logistiek distributiecentrum van een bedrijf zoals Coolblue of BOL. Het distributiecentrum is zo ingericht dat het een logische en (daardoor) efficiënte opslag van producten is. Elk product heeft zijn eigen plek. En die plek is daar, omdat:
 1)	Het een logische plek is in relatie tot ‘buur’-producten. Zo staat het witgoed en de bijbehorende aansluitslangen bij elkaar.
 2)	De bereikbaarheid aansluit op de vraag van de consument. ‘Hardlopers’ zullen normaliter voor in de hal staan. Producten die zelden besteld worden, zullen verder in de hal staan.
+
 De indeling van een distributiecentrum (Figuur 1) is een analogie van het GWSW-datamodel.
 
 <img src="media/figuur1_unsplash.jpg" style="width:100%;height:50%" />
+
 *Figuur 1 Voorbeeld van een distributiecentrum (foto door Ruchindra Gunasekara op Unsplash)*
 
 Op de GWSW-server staat er per organisatie een ‘GWSW-conform distributiecentrum’ klaar. Dit ‘distributiecentrum’ kan worden gevuld met gegevens uit het Stedelijk Water-domein. Als deze gegevens in de stellingen van het distributiecentrum zijn opgeslagen, dan kunnen ze worden gecontroleerd (denk aan een voorraadcontrole) en weer worden uitgeleverd (denk aan een bestelling uitleveren).
 
 ## Gegevens uitwisselen via de GWSW-server
-Om gebruik te kunnen maken van de voordelen van de GWSW moeten de gegevens vanuit het beheerpakket (gele blokjes aan de linkerkant) op de GWSW-server (grote grijze blok in het midden) komen te staan in de data-omgeving (het ‘distributiecentrum’) van de betreffende organisatie (blauwe cilinder). Vanuit daar kunnen de gegevens worden opgevraagd voor gebruik in externe applicaties (Figuur 2).
+Om gebruik te kunnen maken van de voordelen van het GWSW moeten de gegevens vanuit het beheerpakket (gele blokjes aan de linkerkant) op de GWSW-server (grote grijze blok in het midden) komen te staan in de data-omgeving (het ‘distributiecentrum’) van de betreffende organisatie (blauwe cilinder). Vanuit daar kunnen de gegevens worden opgevraagd voor gebruik in externe applicaties (Figuur 2).
 
 <img src="media/figuur2_GWSWserver.jpg" style="width:100%;height:50%" />
+
 *Figuur 2 Beheerapplicaties (links) met de verschillende datasets (gele blokken), de GWSW-server (grijze blok in het midden) met toepassingen (GWSW Apps) en gegevensopslag (GWSW Data) in een data-omgeving per organisatie (blauwe cilinders) en externe applicaties (rechts) die gebruik maken van de gegevens op de GWSW-server*
 
 Met GWSW Apps kunnen gegevens worden geüpload naar de GWSW-server, worden gecontroleerd en worden opgevraagd vanaf de GWSW-server.
@@ -91,6 +94,6 @@ Om het gegevensbeheer, -uitwisseling en -gebruik goed aan te laten sluiten op he
 4)	De GWSW-server moet in staat zijn om een correct bestand te kunnen importeren, opslaan en publiceren (Stichting RIONED) 
 5)	Externe applicaties moeten in staat zijn om op basis van een export vanaf de GWSW-server de gegevens toe te passen (Leverancier externe applicatie)
 
-Omdat het doel van voorliggende website is om riooldatabeheerders te ondersteunen in het gebruik van het GWSW, zijn de punten over het beheerpakket (punt 1 en 3) en het gegevensbeheer (punt 2) het meest relevant. Deze worden in het volgende deel van de website nader toegelicht. Punt 4 en 5 worden elders opgepakt.
+Omdat het doel van voorliggende website is om riooldatabeheerders te ondersteunen in het gebruik van het GWSW, zijn de punten over het beheerpakket (punt 1 en 3) en het gegevensbeheer (punt 2) het meest relevant. Deze worden in de volgende paragraaf van de website nader toegelicht. Punt 4 en 5 worden door de leveranciers en Stichting RIONED opgepakt.
 
 
