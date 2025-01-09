@@ -268,7 +268,7 @@ De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-ser
 In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd.
 
 *Tabel 4.1 Typologie put* 
-
+|---------------------------|-------------------------|
 | Beerput                   | Kruisingsput            |
 | Blinde put                | Lozingsput              |
 | Infiltratieput            | Externe overstortput    |
@@ -307,3 +307,32 @@ PM
 **Vorm leiding**
 Een leiding kan de volgende vorm hebben:
 PM
+
+## Stap 2: Verbeter de gegevenskwaliteit
+### Datatype
+De meeste getallen in het GWSW moeten worden opgegeven als een ‘Integer’ waardetype. Dat betekent een getal zonder decimalen met een bepaalde eenheid (bijvoorbeeld mm). Niveaus worden doorgaans met decimalen in m NAP vastgelegd. Deze informatie staat vermeld op de GWSW-website bij de het Waardetype van de term (Figuur 4.4).
+
+<img src="media/figuur44_datatype.jpg" style="width:50%;height:50%" />
+
+*Figuur 4.4 Voorbeeld van hoe waardetype van een GWSW-term staat beschreven*
+
+Als er een getal met komma’s in het veld staat ingevuld waar het waardetype ‘Integer’ is, ga dan na wat de eenheid is.
+
+### Putten
+**Afmetingen van een put**
+Van een put moet de lengte, breedte (of diameter) en inwendige hoogte worden opgegeven. Let hierbij op de eenheid (mm zonder decimalen).
+
+De lengte en breedte van een put moet tussen de 300 en 4.000 mm liggen, anders wordt deze ‘geflagged’ door de GWSW-nulmeting. De inwendige hoogte van een put moet tussen de 500 en 4.000 mm liggen.
+
+Sorteer op lengte en kijk welke putten er een waarde hebben van <300 mm en > 4.000 mm. Bepaal of de afwijkende afmetingen logisch zijn, bijvoorbeeld bij bijzondere constructies, of pas aan. Doe hetzelfde voor breedte. Controleer zo ook de hoogte van een put.
+
+### Leidingen
+**Afmetingen van een leiding**
+Van een leiding moet de lengte, breedte (of diameter) en hoogte worden opgegeven. Let hierbij op de eenheid (lengte in m met decimalen, breedte/hoogte/diameter in mm zonder decimalen).
+
+De lengte van een vrijverval leiding moet tussen de 1 en 75 meter liggen, anders wordt deze ‘geflagged’ door de GWSW-nulmeting. De hoogte/breedte/diameter van een leiding moet tussen de 63 en 4.000 mm liggen.
+
+Werkwijze is hetzelfde als bij de putten. Bepaal voor welke objecten dit geldt, en pas, na beoordeling, de waarde aan. Afwijkingen zijn vaak te zien bij bergbezinkbassins en infiltratiekratten.
+
+**Diepteligging van een leiding**
+Van een leiding moet ook de binnen onderkant buis (BOB, als niveau t.o.v. NAP) worden opgegeven voor het beginpunt en het eindpunt van de leiding.
