@@ -153,38 +153,44 @@ In Tabel 3.1 staat opgenomen welke versie Brutis/Kikker welke versie van het GWS
 
 *Tabel 3.1 Versie Kikker en aansluiting op GWSW-versie* 
 
-| Versie Kikker | Versie GWSW |
-|---------------|-------------|
-| 5.4           | 1.5         |
-| 5.3           | 1.5         |
-| 4.0           | 1.4         |
-| 3.6           | 1.4         |
+| Versie Kikker    | Versie GWSW |
+|------------------|-------------|
+| 5.4              | 1.5         |
+| 5.3              | 1.5         |
+| 4.0              | 1.4         |
+| 3.6              | 1.4         |
 
 Neem contact op met info@riodesk.nl om informatie te ontvangen over het updaten naar de nieuwste versie van BRUTIS / Kikker.
 
 
 <div id="gbi_versie"></div>
+
 **GBI (Antea group)**
 
 pm
 
 <div id="geovisia_versie"></div>
+
 **Geovisia (Dataquint)**
 
 pm
 
 <div id="gisib_versie"></div>
+
 **Gisib (Gisib BV)**
 
 pm
 
 <div id="riogl_versie"></div>
+
 **Rio GL / Obsurv (Sweco)**
 
 pm
 
 <div id="registratie"></div>
+
 ## Zet jouw gegevens goed en GWSW-conform in het beheerpakket
+
 ### Inleiding
 Gegevens kunnen enkel uitgewisseld worden, als deze (goed) in het beheerpakket staan. Bestaat een veld niet in het ‘distributiecentrum’ (datamodel) van het beheerpakket, dan kan deze ook niet worden ingevuld door de gebruiker. Hierover ging de [vorige paragraaf](#versie_beheerpakket) (Paragraaf 3.2). 
 
@@ -198,7 +204,7 @@ Dus wat kan jij, als riooldatabeheerder, doen om het gegevensbeheer in het behee
 ### Stapsgewijs met een plan
 Het is verstandig om rioleringsgegevens stapsgewijs (iteratief) aan te passen aan het GWSW. De belangrijkste en eerste stap in de verbetering van de rioleringsgegevens moet 1) het aansluiten op de [terminologie](#stap1) van het GWSW zijn. Daarna kunnen de verbeteringen eventueel verder worden gebracht door 2) de resultaten van de GWSW-nulmeting qua [plausibiliteit](#stap2) (bandbreedte van ingevulde waardes) te verwerken. Ook kan worden overwogen om van [kunstwerken](#stap3) bepaalde objectinformatie wel mee te nemen in het beheerpakket (Stap 3). Een laatste stap kan zijn om 4) de [schematisatie](#stap4) van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van bijvoorbeeld hydraulisch modelleren en het opstellen van afvalwaterprognoses. Dit is in de meeste beheerpakketten nog lastig.
 
-In het kader van de behapbaarheid en toepasbaarheid van het eindresultaat, wordt er nu met name ingegaan op [Stap 1 Terminologie](#stap1) en [Stap 2 Plausibiliteit](#stap). Deze bestaan ook weer uit kleine stapjes. Zie [Paragraaf 4](#par4) voor wat hiermee moet worden gedaan.
+In het kader van de behapbaarheid en toepasbaarheid van het eindresultaat, wordt er nu met name ingegaan op [Stap 1 Terminologie](#stap1) en [Stap 2 Plausibiliteit](#stap). Deze bestaan ook weer uit kleine stapjes. Zie [Paragraaf 4 Stappenplan](#par4) voor wat hiermee moet worden gedaan.
 
 ### Blokmutaties
 Elk object waarin een wijziging moet worden doorgevoerd, kan in het beheerpakket worden open geklikt, waarna in het nieuwe venster de wijziging kan worden doorgevoerd. Indien er veel mutaties nodig zijn, is dit echter een tijdrovende klus. 
