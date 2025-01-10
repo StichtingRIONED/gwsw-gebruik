@@ -82,6 +82,7 @@ De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden opgevr
 Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) voor verschillende thema’s worden gedownload of ontsloten.
 
 <div id="in_ontwikkeling"></div>
+
 ## GWSW is in ontwikkeling
 Het is goed te beseffen dat het GWSW in ontwikkeling is, voor zowel het woordenboek, het datamodel en de uitwisseling. Met elke nieuwe versie komen er nieuwe mogelijkheden voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
 
@@ -204,7 +205,7 @@ Dus wat kan jij, als riooldatabeheerder, doen om het gegevensbeheer in het behee
 ### Stapsgewijs met een plan
 Het is verstandig om rioleringsgegevens stapsgewijs (iteratief) aan te passen aan het GWSW. De belangrijkste en eerste stap in de verbetering van de rioleringsgegevens moet 1) het aansluiten op de [terminologie](#stap1) van het GWSW zijn. Daarna kunnen de verbeteringen eventueel verder worden gebracht door 2) de resultaten van de GWSW-nulmeting qua [plausibiliteit](#stap2) (bandbreedte van ingevulde waardes) te verwerken. Ook kan worden overwogen om van [kunstwerken](#stap3) bepaalde objectinformatie wel mee te nemen in het beheerpakket (Stap 3). Een laatste stap kan zijn om 4) de [schematisatie](#stap4) van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van bijvoorbeeld hydraulisch modelleren en het opstellen van afvalwaterprognoses. Dit is in de meeste beheerpakketten nog lastig.
 
-In het kader van de behapbaarheid en toepasbaarheid van het eindresultaat, wordt er nu met name ingegaan op [Stap 1 Terminologie](#stap1) en [Stap 2 Plausibiliteit](#stap). Deze bestaan ook weer uit kleine stapjes. Zie [Paragraaf 4 Stappenplan](#par4) voor wat hiermee moet worden gedaan.
+In het kader van de behapbaarheid en toepasbaarheid van het eindresultaat, wordt er nu met name ingegaan op [Stap 1 Terminologie](#stap1) en [Stap 2 Plausibiliteit](#stap2). Deze bestaan ook weer uit kleine stapjes. Zie [Paragraaf 4 Stappenplan](#par4) voor wat hiermee moet worden gedaan.
 
 ### Blokmutaties
 Elk object waarin een wijziging moet worden doorgevoerd, kan in het beheerpakket worden open geklikt, waarna in het nieuwe venster de wijziging kan worden doorgevoerd. Indien er veel mutaties nodig zijn, is dit echter een tijdrovende klus. 
