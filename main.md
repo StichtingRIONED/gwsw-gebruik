@@ -243,6 +243,7 @@ Stel op basis van bovenstaande punten een Plan van Aanpak op met daarin:
 Regel op basis van dit Plan van Aanpak het benodigde budget/tijd.
 
 <div id="par4"></div>
+
 # Stappenplan
 In onderstaand stappenplan staat beschreven op welke wijze de terminologie (stap 1) en plausibiliteit van de gegevens (stap 2) kan worden verbeterd. Hier voorafgaand wordt in stap 0 een toelichting gegeven op het datamodel (de inrichting van het distributiecentrum).
 Dit proberen we te doen aan de hand van instructies per rioolobject in de vorm van filmpjes, figuren en teksten. Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht. De volgende partijen werken daaraan mee:
@@ -250,6 +251,7 @@ Dit proberen we te doen aan de hand van instructies per rioolobject in de vorm v
 *Logo’s van meewerkende leveranciers worden hier ingevoegd* 
 
 <div id="stap0"></div>
+
 ## Stap 0: Begrijp het GWSW-datamodel een beetje
 Het GegevensWoordenboek Stedelijk Water is [online](https://data.gwsw.nl/1.6.1/Totaal/index.html?menu_item=classes) te vinden. Aan de linkerkant zit een boomstructuur, waarbij Fysiek Object relevant is voor de gegevens in het beheerpakket (Figuur 4.1). 
 
@@ -275,6 +277,7 @@ In **Brutis** kan er een mapping worden aangemaakt waarin de koppeling wordt gel
 *Figuur 4.3 Mogelijkheid tot het aangeven van GWSW Domeinwaarden als 'mapping' tussen Brutis en het GWSW*
 
 <div id="stap1"></div>
+
 ## Stap 1: Verbeter de terminologie
 De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-server. Typfouten of een andere schrijfwijze ‘snapt’ de GWSW-server niet. Als voorbeeld: “Mof_spie” is fout. Het moet zijn “Mof/Spie”. De meeste beheerpakketten hebben hier voorgedefinieerde keuzelijsten voor.
 
@@ -283,22 +286,22 @@ De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-ser
 
 In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd.
 
--Beerput
--Bijzondere putconstructie
--Blinde put
--Doorspoelput
--Doorspuitput
--Infiltratieput
--Inspectieput
--Kolk
--Kruisingsput
--Lozingsput
--Pompput
--Pompunit
--Externe overstortput 
--Interne overstortput
--Verbeterde overstortput 
--Stuwput
+- Beerput
+- Bijzondere putconstructie
+- Blinde put
+- Doorspoelput
+- Doorspuitput
+- Infiltratieput
+- Inspectieput
+- Kolk
+- Kruisingsput
+- Lozingsput
+- Pompput
+- Pompunit
+- Externe overstortput 
+- Interne overstortput
+- Verbeterde overstortput 
+- Stuwput
 
 Van een overstortput moet dus altijd aangegeven worden of het om een “Externe overstortput”, “Interne overstortput” of “Verbeterde overstortput” gaat.
 Een pompput is een rioolput bestemd voor het verpompen van afvalwater. Een pompunit is daar een variant op. Dit is namelijk een pompput bestemd voor het verpompen van afvalwater in een drukrioleringsstelsel.
@@ -307,51 +310,51 @@ Een pompput is een rioolput bestemd voor het verpompen van afvalwater. Een pompu
 
 Een put kan bestaan uit de volgende materialen:
 
--Asbestcement
--Cementmortel
--Beton
--Betonnen segmenten
--Bitumen
--Bitumen-houtvezel composiet
--Epoxy
--Glasvezel versterkte kunststof
--Gespoten beton
--Gewapend beton
--Gietijzer
--Grijs gietijzer
--HDPE
--Klei
--Unidentified type of Iron or steel
--Unidentified type of plastics
--Metselwerk (baksteen)
--Metselwerk (bepleisterd)
--Metselwerk (onbepleisterd)
--Nodulair gietijzer
--Polyetheen
--Polyester
--Polypropyleen
--PVC
--Staal
--Unidentified material
--Vezelcement
--Voorgespannen Beton
--Anders (details in deel opmerkingen)
+- Asbestcement
+- Cementmortel
+- Beton
+- Betonnen segmenten
+- Bitumen
+- Bitumen-houtvezel composiet
+- Epoxy
+- Glasvezel versterkte kunststof
+- Gespoten beton
+- Gewapend beton
+- Gietijzer
+- Grijs gietijzer
+- HDPE
+- Klei
+- Unidentified type of Iron or steel
+- Unidentified type of plastics
+- Metselwerk (baksteen)
+- Metselwerk (bepleisterd)
+- Metselwerk (onbepleisterd)
+- Nodulair gietijzer
+- Polyetheen
+- Polyester
+- Polypropyleen
+- PVC
+- Staal
+- Unidentified material
+- Vezelcement
+- Voorgespannen Beton
+- Anders (details in deel opmerkingen)
 
 **Vorm put**
 
 Een put kan de volgende vorm hebben:
 
--Rond
--Rechthoekig
--Anders (vorm)
+- Rond
+- Rechthoekig
+- Anders (vorm)
 
 **Maaiveldschematisering**
 
 Van een put moet worden opgenomen hoe deze kan uitwisselen met het maaiveld. Uit de volgende waarden kan je kiezen:
 
--Gekneveld
--Reservoir
--Verlies
+- Gekneveld
+- Reservoir
+- Verlies
 
 Hierbij zullen alle putten die gekneveld zijn, worden aangeduid met “Gekneveld”. Voor de andere putten kan deze worden gezet op “Reservoir”. Het concept “Verlies” is een keuze die door een hydraulisch modelleur kan worden gemaakt. Deze keuze is niet relevant om in een beheerpakket vast te leggen.
 
@@ -360,28 +363,28 @@ Hierbij zullen alle putten die gekneveld zijn, worden aangeduid met “Gekneveld
 
 In het GWSW moet een leiding tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd. De onderstaande termen/niveaus zijn zeker goed voor leiding.
 
--Aansluitleiding
--Bergbezinkleiding
--Bergingsleiding
--Blusriool
--DIT-riool
--DT-riool
--Drain
--Drukleiding
--Duiker
--Gemengd riool
--Hemelwaterriool
--Infiltratieriool
--Overstortleiding
--Parallelriool
--Persleiding
--Spoelleiding
--Stuwrioolleiding
--Tandemriool
--Transportrioolleiding
--Vacuümleiding
--Vuilwaterriool
--Zinker
+- Aansluitleiding
+- Bergbezinkleiding
+- Bergingsleiding
+- Blusriool
+- DIT-riool
+- DT-riool
+- Drain
+- Drukleiding
+- Duiker
+- Gemengd riool
+- Hemelwaterriool
+- Infiltratieriool
+- Overstortleiding
+- Parallelriool
+- Persleiding
+- Spoelleiding
+- Stuwrioolleiding
+- Tandemriool
+- Transportrioolleiding
+- Vacuümleiding
+- Vuilwaterriool
+- Zinker
 
 De leidingen die nu zijn voorzien van de typologie ‘Vrijverval rioolleiding’ of ‘Mechanische rioolleiding’, zullen dus nog verder moeten worden getypeerd.
 
@@ -389,61 +392,63 @@ De leidingen die nu zijn voorzien van de typologie ‘Vrijverval rioolleiding’
 
 Een leiding kan bestaan uit de volgende materialen:
 
--Asbestcement
--Cementmortel
--Beton
--Beton met stalen kern
--Betonnen segmenten
--Bitumen
--Bitumen-houtvezel composiet
--Epoxy
--Glasvezel versterkte kunststof
--Gespoten beton
--Gewapend beton
--Gietijzer
--Glad staal
--Gres
--Grijs gietijzer
--HDPE
--Klei
--Metselwerk
--Metselwerk (baksteen)
--Metselwerk (bepleisterd)
--Metselwerk (onbepleisterd)
--Nodulair gietijzer
--Plaatijzer
--Polyetheen
--Polyester
--Polypropyleen
--PVC
--Rubber
--Staal
--Unidentified material
--Unidentified type of Iron or steel
--Unidentified type of plastics
--Vezelcement
--Voorgespannen Beton
--Anders (details in deel opmerkingen)
+- Asbestcement
+- Cementmortel
+- Beton
+- Beton met stalen kern
+- Betonnen segmenten
+- Bitumen
+- Bitumen-houtvezel composiet
+- Epoxy
+- Glasvezel versterkte kunststof
+- Gespoten beton
+- Gewapend beton
+- Gietijzer
+- Glad staal
+- Gres
+- Grijs gietijzer
+- HDPE
+- Klei
+- Metselwerk
+- Metselwerk (baksteen)
+- Metselwerk (bepleisterd)
+- Metselwerk (onbepleisterd)
+- Nodulair gietijzer
+- Plaatijzer
+- Polyetheen
+- Polyester
+- Polypropyleen
+- PVC
+- Rubber
+- Staal
+- Unidentified material
+- Unidentified type of Iron or steel
+- Unidentified type of plastics
+- Vezelcement
+- Voorgespannen Beton
+- Anders (details in deel opmerkingen)
 
 
 **Vorm leiding**
 
 Een leiding kan de volgende vorm hebben:
 
--Eivormig
--Eivormig omgekeerd
--Heul
--Muil
--Ovaal
--Rechthoekig
--Local section code
--Rond
--Trapezium
--U-vorm
--Anders
+- Eivormig
+- Eivormig omgekeerd
+- Heul
+- Muil
+- Ovaal
+- Rechthoekig
+- Local section code
+- Rond
+- Trapezium
+- U-vorm
+- Anders
 
 <div id="stap2"></div>
+
 ## Stap 2: Verbeter de gegevenskwaliteit
+
 ### Datatype
 De meeste getallen in het GWSW moeten worden opgegeven als een ‘Integer’ waardetype. Dat betekent een getal zonder decimalen met een bepaalde eenheid (bijvoorbeeld mm). Niveaus worden doorgaans met decimalen in m NAP vastgelegd. Deze informatie staat vermeld op de GWSW-website bij de het Waardetype van de term (Figuur 4.4).
 
@@ -476,6 +481,7 @@ Werkwijze is hetzelfde als bij de putten. Bepaal voor welke objecten dit geldt, 
 Van een leiding moet ook de binnen onderkant buis (BOB, als niveau t.o.v. NAP) worden opgegeven voor het beginpunt en het eindpunt van de leiding.
 
 <div id="stap3"></div>
+
 ## Stap 3: Voer waar nodig en mogelijk andere verbeteringen door in de gegevens
 ### Gemalen
 Gemalen worden doorgaans beheerd in een apart gemalenbeheerprogramma. Daar zal dan ook informatie over type gemaal en pomp zijn opgenomen. Omdat deze informatie niet is vastgelegd in het stelsel-beheerpakket, wordt dat ook niet meegegeven in het GWSW-OroX-uitwisselbestand.
@@ -485,10 +491,10 @@ Wat vaak wel is vastgelegd in het beheerpakket zijn de locaties van de pompputte
 ### Stromingsrichting bij kunstwerken
 Kunstwerken waar een terugslagklep of een afsluiter zit, daar moet de stromingsrichting worden gedefinieerd. De stromingsrichting legt in de gegevens vast in welke richting het water kan stromen. Dit is vaak bij doorlaten, overstortdrempels en stuwmuren het geval. Hiervoor is keuze uit de onderstaande opties:
 
--Geen stroming, gesloten
--Stroming in beide richtingen
--Stroming van beginpunt naar eindpunt
--Stroming van eindpunt naar beginpunt
+- Geen stroming, gesloten
+- Stroming in beide richtingen
+- Stroming van beginpunt naar eindpunt
+- Stroming van eindpunt naar beginpunt
 
 Ga hiervoor in het beheerpakket naar de genoemde kunstwerktypes en ken de juiste stromingsrichting toe.
 
@@ -498,18 +504,19 @@ Wat geldt voor gemalen, geldt vaak ook voor andere kunstwerken zoals overstorten
 ### Verbindingstype
 In het GWSW moet het verbindingstype tussen de leidingen conform de juiste terminologie zijn:
 
--Dubbele steekmof
--Flensverbinding
--Glijverbinding
--Lasverbinding
--Lijmverbinding
--Mof/Spie
--Rolverbinding
--Trekvaste koppeling
--Vaar/Moer
--Anders
+- Dubbele steekmof
+- Flensverbinding
+- Glijverbinding
+- Lasverbinding
+- Lijmverbinding
+- Mof/Spie
+- Rolverbinding
+- Trekvaste koppeling
+- Vaar/Moer
+- Anders
 
 <div id="stap4"></div>
+
 ## Stap 4: Verbeter de schematisatie
 Een laatste stap kan zijn om de schematisatie van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van hydraulisch modelleren en (later) het opstellen van afvalwaterprognoses. 
 Om de schematisatie te verbeteren, moeten wel eerst de voorgaande stappen (Terminologie en Plausibiliteit) zijn uitgevoerd. Zolang de uiteindelijke schematisatie in het beheerpakket nog complex is (geldt met name voor de overige bijzondere voorzieningen) en de export vanuit het beheerpakket daar ook niet goed mee om kan gaan, is het beter om hier nog geen tijd in te steken.
