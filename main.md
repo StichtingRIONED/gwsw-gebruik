@@ -129,6 +129,7 @@ Naast de inspanningen van Stichting RIONED, zal ook de gebruiker de behoefte aan
 De applicatietoetsing – die elke twee jaar door Stichting RIONED wordt uitgevoerd – is bedoeld om de kwaliteit en consistentie van de GWSW-implementatie in softwareapplicaties te bepalen. De resultaten zijn echter een momentopname en gericht op de nieuwste versie van de software. In de eerste helft van 2025 staat de applicatietoetsing gepland.
 
 <div id="versie_beheerpakket"></div>
+
 ### Welke versie heeft mijn beheerpakket?
 Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van toepassing zijn. Dit zegt helaas niets over hoe goed de betreffende OroX is en voor welke toepassingen die dan geschikt is. Die informatie komt wel uit de Applicatietoetsing naar voren.
 
@@ -142,6 +143,7 @@ Lijst van beheerpakketten:
 Mocht jouw beheerpakket ontbreken in dit overzicht, neem dan contact op met gwsw@rioned.org
 
 <div id="brutis_versie"></div>
+
 **Brutis / Kikker (Riodesk)**
 
 Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (zie Figuur 3.1)
