@@ -274,48 +274,167 @@ De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-ser
 
 ### Putten
 **Typologie put**
+
 In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd.
 
-*Tabel 4.1 Typologie put* 
-|---------------------------|-------------------------|
-| Beerput                   | Kruisingsput            |
-| Blinde put                | Lozingsput              |
-| Infiltratieput            | Externe overstortput    |
-| Kolk                      | Interne overstortput    |
-| Bijzondere putconstructie | Verbeterde overstortput |
-| Doorspoelput              | Pompput                 |
-| Doorspuitput              | Pompunit                |
-| Inspectieput              | Stuwput                 |
+-Beerput
+-Bijzondere putconstructie
+-Blinde put
+-Doorspoelput
+-Doorspuitput
+-Infiltratieput
+-Inspectieput
+-Kolk
+-Kruisingsput
+-Lozingsput
+-Pompput
+-Pompunit
+-Externe overstortput 
+-Interne overstortput
+-Verbeterde overstortput 
+-Stuwput
 
 Van een overstortput moet dus altijd aangegeven worden of het om een “Externe overstortput”, “Interne overstortput” of “Verbeterde overstortput” gaat.
 Een pompput is een rioolput bestemd voor het verpompen van afvalwater. Een pompunit is daar een variant op. Dit is namelijk een pompput bestemd voor het verpompen van afvalwater in een drukrioleringsstelsel.
 
 **Materiaal put**
+
 Een put kan bestaan uit de volgende materialen:
-PM
+
+-Asbestcement
+-Cementmortel
+-Beton
+-Betonnen segmenten
+-Bitumen
+-Bitumen-houtvezel composiet
+-Epoxy
+-Glasvezel versterkte kunststof
+-Gespoten beton
+-Gewapend beton
+-Gietijzer
+-Grijs gietijzer
+-HDPE
+-Klei
+-Unidentified type of Iron or steel
+-Unidentified type of plastics
+-Metselwerk (baksteen)
+-Metselwerk (bepleisterd)
+-Metselwerk (onbepleisterd)
+-Nodulair gietijzer
+-Polyetheen
+-Polyester
+-Polypropyleen
+-PVC
+-Staal
+-Unidentified material
+-Vezelcement
+-Voorgespannen Beton
+-Anders (details in deel opmerkingen)
 
 **Vorm put**
+
 Een put kan de volgende vorm hebben:
-PM
+
+-Rond
+-Rechthoekig
+-Anders (vorm)
 
 **Maaiveldschematisering**
+
 Van een put moet worden opgenomen hoe deze kan uitwisselen met het maaiveld. Uit de volgende waarden kan je kiezen:
-PM
+
+-Gekneveld
+-Reservoir
+-Verlies
+
+Hierbij zullen alle putten die gekneveld zijn, worden aangeduid met “Gekneveld”. Voor de andere putten kan deze worden gezet op “Reservoir”. Het concept “Verlies” is een keuze die door een hydraulisch modelleur kan worden gemaakt. Deze keuze is niet relevant om in een beheerpakket vast te leggen.
 
 ### Leidingen
 **Typologie leidingen**
+
 In het GWSW moet een leiding tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd. De onderstaande termen/niveaus zijn zeker goed voor leiding.
-PM
+
+-Aansluitleiding
+-Bergbezinkleiding
+-Bergingsleiding
+-Blusriool
+-DIT-riool
+-DT-riool
+-Drain
+-Drukleiding
+-Duiker
+-Gemengd riool
+-Hemelwaterriool
+-Infiltratieriool
+-Overstortleiding
+-Parallelriool
+-Persleiding
+-Spoelleiding
+-Stuwrioolleiding
+-Tandemriool
+-Transportrioolleiding
+-Vacuümleiding
+-Vuilwaterriool
+-Zinker
 
 De leidingen die nu zijn voorzien van de typologie ‘Vrijverval rioolleiding’ of ‘Mechanische rioolleiding’, zullen dus nog verder moeten worden getypeerd.
 
 **Materiaal leiding**
+
 Een leiding kan bestaan uit de volgende materialen:
-PM
+
+-Asbestcement
+-Cementmortel
+-Beton
+-Beton met stalen kern
+-Betonnen segmenten
+-Bitumen
+-Bitumen-houtvezel composiet
+-Epoxy
+-Glasvezel versterkte kunststof
+-Gespoten beton
+-Gewapend beton
+-Gietijzer
+-Glad staal
+-Gres
+-Grijs gietijzer
+-HDPE
+-Klei
+-Metselwerk
+-Metselwerk (baksteen)
+-Metselwerk (bepleisterd)
+-Metselwerk (onbepleisterd)
+-Nodulair gietijzer
+-Plaatijzer
+-Polyetheen
+-Polyester
+-Polypropyleen
+-PVC
+-Rubber
+-Staal
+-Unidentified material
+-Unidentified type of Iron or steel
+-Unidentified type of plastics
+-Vezelcement
+-Voorgespannen Beton
+-Anders (details in deel opmerkingen)
+
 
 **Vorm leiding**
+
 Een leiding kan de volgende vorm hebben:
-PM
+
+-Eivormig
+-Eivormig omgekeerd
+-Heul
+-Muil
+-Ovaal
+-Rechthoekig
+-Local section code
+-Rond
+-Trapezium
+-U-vorm
+-Anders
 
 <div id="stap2"></div>
 ## Stap 2: Verbeter de gegevenskwaliteit
@@ -330,6 +449,7 @@ Als er een getal met komma’s in het veld staat ingevuld waar het waardetype �
 
 ### Putten
 **Afmetingen van een put**
+
 Van een put moet de lengte, breedte (of diameter) en inwendige hoogte worden opgegeven. Let hierbij op de eenheid (mm zonder decimalen).
 
 De lengte en breedte van een put moet tussen de 300 en 4.000 mm liggen, anders wordt deze ‘geflagged’ door de GWSW-nulmeting. De inwendige hoogte van een put moet tussen de 500 en 4.000 mm liggen.
@@ -338,6 +458,7 @@ Sorteer op lengte en kijk welke putten er een waarde hebben van <300 mm en > 4.0
 
 ### Leidingen
 **Afmetingen van een leiding**
+
 Van een leiding moet de lengte, breedte (of diameter) en hoogte worden opgegeven. Let hierbij op de eenheid (lengte in m met decimalen, breedte/hoogte/diameter in mm zonder decimalen).
 
 De lengte van een vrijverval leiding moet tussen de 1 en 75 meter liggen, anders wordt deze ‘geflagged’ door de GWSW-nulmeting. De hoogte/breedte/diameter van een leiding moet tussen de 63 en 4.000 mm liggen.
@@ -345,8 +466,50 @@ De lengte van een vrijverval leiding moet tussen de 1 en 75 meter liggen, anders
 Werkwijze is hetzelfde als bij de putten. Bepaal voor welke objecten dit geldt, en pas, na beoordeling, de waarde aan. Afwijkingen zijn vaak te zien bij bergbezinkbassins en infiltratiekratten.
 
 **Diepteligging van een leiding**
+
 Van een leiding moet ook de binnen onderkant buis (BOB, als niveau t.o.v. NAP) worden opgegeven voor het beginpunt en het eindpunt van de leiding.
 
 <div id="stap3"></div>
+## Stap 3: Voer waar nodig en mogelijk andere verbeteringen door in de gegevens
+### Gemalen
+Gemalen worden doorgaans beheerd in een apart gemalenbeheerprogramma. Daar zal dan ook informatie over type gemaal en pomp zijn opgenomen. Omdat deze informatie niet is vastgelegd in het stelsel-beheerpakket, wordt dat ook niet meegegeven in het GWSW-OroX-uitwisselbestand.
+
+Wat vaak wel is vastgelegd in het beheerpakket zijn de locaties van de pompputten. Door de typering van de put goed te zetten (zie Paragraaf ‘Typologie put’), kan er in ieder geval daarop worden getoetst en kan de informatie gebruikt worden om onderscheid te maken tussen de verschillende puttypen met bijbehorende kunstwerken. 
+
+### Stromingsrichting bij kunstwerken
+Kunstwerken waar een terugslagklep of een afsluiter zit, daar moet de stromingsrichting worden gedefinieerd. De stromingsrichting legt in de gegevens vast in welke richting het water kan stromen. Dit is vaak bij doorlaten, overstortdrempels en stuwmuren het geval. Hiervoor is keuze uit de onderstaande opties:
+
+-Geen stroming, gesloten
+-Stroming in beide richtingen
+-Stroming van beginpunt naar eindpunt
+-Stroming van eindpunt naar beginpunt
+
+Ga hiervoor in het beheerpakket naar de genoemde kunstwerktypes en ken de juiste stromingsrichting toe.
+
+### Kenmerken bij kunstwerken
+Wat geldt voor gemalen, geldt vaak ook voor andere kunstwerken zoals overstorten en doorlaten. Probeer in ieder geval de locatie, typologie, drempelhoogte (in m NAP) en drempelbreedte (in m) van overstorten goed vast te leggen. Idem voor doorlaten.
+
+### Verbindingstype
+In het GWSW moet het verbindingstype tussen de leidingen conform de juiste terminologie zijn:
+
+-Dubbele steekmof
+-Flensverbinding
+-Glijverbinding
+-Lasverbinding
+-Lijmverbinding
+-Mof/Spie
+-Rolverbinding
+-Trekvaste koppeling
+-Vaar/Moer
+-Anders
 
 <div id="stap4"></div>
+## Stap 4: Verbeter de schematisatie
+Een laatste stap kan zijn om de schematisatie van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van hydraulisch modelleren en (later) het opstellen van afvalwaterprognoses. 
+Om de schematisatie te verbeteren, moeten wel eerst de voorgaande stappen (Terminologie en Plausibiliteit) zijn uitgevoerd. Zolang de uiteindelijke schematisatie in het beheerpakket nog complex is (geldt met name voor de overige bijzondere voorzieningen) en de export vanuit het beheerpakket daar ook niet goed mee om kan gaan, is het beter om hier nog geen tijd in te steken.
+
+### Putten
+Bepaald type putten moet bestaan uit verschillende onderdelen. Een Overstortput (met onderliggende subtypen) of Stuwput bestaat uit tenminste twee compartimenten en een overstortdrempel of stuwmuur. Als er ook nog een doorlaat in zit, dan moet die uiteraard ook worden voorzien van de benodigde kenmerken zoals vorm, breedte en doorlaatniveau.
+
+### Overige bijzondere voorzieningen
+Bergbezinkbassin en infiltratiebassins bestaan uit verschillende onderdelen. Het gaat nu te ver om een volledige schematisatie van dat soort voorzieningen uit te schrijven als voorbeeld. Om je toch een idee te geven: Een bergbezinkbassin bestaat uit verschillende compartimenten in putten, die verbonden zijn via leidingen, overstortdrempels, ledigingsvoorziening en spoelvoorziening.
