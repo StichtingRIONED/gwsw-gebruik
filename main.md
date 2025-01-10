@@ -81,7 +81,7 @@ Omdat voor het lezen van het resultatenbestand technische kennis van het GWSW no
 De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden opgevraagd voor gebruik in externe applicaties/programma’s. 
 Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) voor verschillende thema’s worden gedownload of ontsloten.
 
-<a name="in_ontwikkeling"></a>
+<div id="in_ontwikkeling"></div>
 ## GWSW is in ontwikkeling
 Het is goed te beseffen dat het GWSW in ontwikkeling is, voor zowel het woordenboek, het datamodel en de uitwisseling. Met elke nieuwe versie komen er nieuwe mogelijkheden voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
 
@@ -127,7 +127,7 @@ Naast de inspanningen van Stichting RIONED, zal ook de gebruiker de behoefte aan
 
 De applicatietoetsing – die elke twee jaar door Stichting RIONED wordt uitgevoerd – is bedoeld om de kwaliteit en consistentie van de GWSW-implementatie in softwareapplicaties te bepalen. De resultaten zijn echter een momentopname en gericht op de nieuwste versie van de software. In de eerste helft van 2025 staat de applicatietoetsing gepland.
 
-<a name="versie_beheerpakket"></a>
+<div id="versie_beheerpakket"></div>
 ### Welke versie heeft mijn beheerpakket?
 Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van toepassing zijn. Dit zegt helaas niets over hoe goed de betreffende OroX is en voor welke toepassingen die dan geschikt is. Die informatie komt wel uit de Applicatietoetsing naar voren.
 
@@ -140,7 +140,7 @@ Lijst van beheerpakketten:
 
 Mocht jouw beheerpakket ontbreken in dit overzicht, neem dan contact op met gwsw@rioned.org
 
-<a name="brutis_versie"></a>
+<div id="brutis_versie"></div>
 **Brutis / Kikker (Riodesk)**
 
 Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (zie Figuur 3.1)
@@ -163,27 +163,27 @@ In Tabel 3.1 staat opgenomen welke versie Brutis/Kikker welke versie van het GWS
 Neem contact op met info@riodesk.nl om informatie te ontvangen over het updaten naar de nieuwste versie van BRUTIS / Kikker.
 
 
-<a name="gbi_versie"></a>
+<div id="gbi_versie"></div>
 **GBI (Antea group)**
 
 pm
 
-<a name="geovisia_versie"></a>
+<div id="geovisia_versie"></div>
 **Geovisia (Dataquint)**
 
 pm
 
-<a name="gisib_versie"></a>
+<div id="gisib_versie"></div>
 **Gisib (Gisib BV)**
 
 pm
 
-<a name="riogl_versie"></a>
+<div id="riogl_versie"></div>
 **Rio GL / Obsurv (Sweco)**
 
 pm
 
-<a name="registratie"></a>
+<div id="registratie"></div>
 ## Zet jouw gegevens goed en GWSW-conform in het beheerpakket
 ### Inleiding
 Gegevens kunnen enkel uitgewisseld worden, als deze (goed) in het beheerpakket staan. Bestaat een veld niet in het ‘distributiecentrum’ (datamodel) van het beheerpakket, dan kan deze ook niet worden ingevuld door de gebruiker. Hierover ging de [vorige paragraaf](#versie_beheerpakket) (Paragraaf 3.2). 
@@ -236,14 +236,14 @@ Stel op basis van bovenstaande punten een Plan van Aanpak op met daarin:
 
 Regel op basis van dit Plan van Aanpak het benodigde budget/tijd.
 
-<a name="par4"></a>
+<div id="par4"></div>
 # Stappenplan
 In onderstaand stappenplan staat beschreven op welke wijze de terminologie (stap 1) en plausibiliteit van de gegevens (stap 2) kan worden verbeterd. Hier voorafgaand wordt in stap 0 een toelichting gegeven op het datamodel (de inrichting van het distributiecentrum).
 Dit proberen we te doen aan de hand van instructies per rioolobject in de vorm van filmpjes, figuren en teksten. Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht. De volgende partijen werken daaraan mee:
 
 *Logo’s van meewerkende leveranciers worden hier ingevoegd* 
 
-<a name="stap0"></a>
+<div id="stap0"></div>
 ## Stap 0: Begrijp het GWSW-datamodel een beetje
 Het GegevensWoordenboek Stedelijk Water is [online](https://data.gwsw.nl/1.6.1/Totaal/index.html?menu_item=classes) te vinden. Aan de linkerkant zit een boomstructuur, waarbij Fysiek Object relevant is voor de gegevens in het beheerpakket (Figuur 4.1). 
 
@@ -268,7 +268,7 @@ In **Brutis** kan er een mapping worden aangemaakt waarin de koppeling wordt gel
 
 *Figuur 4.3 Mogelijkheid tot het aangeven van GWSW Domeinwaarden als 'mapping' tussen Brutis en het GWSW*
 
-<a name="stap1"></a>
+<div id="stap1"></div>
 ## Stap 1: Verbeter de terminologie
 De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-server. Typfouten of een andere schrijfwijze ‘snapt’ de GWSW-server niet. Als voorbeeld: “Mof_spie” is fout. Het moet zijn “Mof/Spie”. De meeste beheerpakketten hebben hier voorgedefinieerde keuzelijsten voor.
 
@@ -317,7 +317,7 @@ PM
 Een leiding kan de volgende vorm hebben:
 PM
 
-<a name="stap2"></a>
+<div id="stap2"></div>
 ## Stap 2: Verbeter de gegevenskwaliteit
 ### Datatype
 De meeste getallen in het GWSW moeten worden opgegeven als een ‘Integer’ waardetype. Dat betekent een getal zonder decimalen met een bepaalde eenheid (bijvoorbeeld mm). Niveaus worden doorgaans met decimalen in m NAP vastgelegd. Deze informatie staat vermeld op de GWSW-website bij de het Waardetype van de term (Figuur 4.4).
@@ -347,6 +347,6 @@ Werkwijze is hetzelfde als bij de putten. Bepaal voor welke objecten dit geldt, 
 **Diepteligging van een leiding**
 Van een leiding moet ook de binnen onderkant buis (BOB, als niveau t.o.v. NAP) worden opgegeven voor het beginpunt en het eindpunt van de leiding.
 
-<a name="stap3"></a>
+<div id="stap3"></div>
 
-<a name="stap4"></a>
+<div id="stap4"></div>
