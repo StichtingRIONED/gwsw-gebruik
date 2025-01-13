@@ -17,11 +17,12 @@ De inhoudsopgave aan de linkerkant van de website kan gebruikt worden als leeswi
 
 # Aanleiding
 
-Deze pagina is in het leven geroepen om riooldatabeheerders te ondersteunen in het gebruik van het GegevensWoordenboek Stedelijk Water (GWSW). Dit willen we doen door middel van een laagdrempelig stappenplan.
-Het GWSW komt ingewikkeld over en is dat ook op sommige vlakken. Als je onder de motorkap van een auto kijkt, dan komt dat ook ingewikkeld over. Het is echter niet nodig om precies te begrijpen hoe een auto helemaal werkt, om toch goed en veilig de auto te kunnen besturen. Zo werkt het ook met het GWSW.
+Deze pagina is in het leven geroepen om riolerings- en databeheerders te ondersteunen in het gebruik van het GegevensWoordenboek Stedelijk Water (GWSW). Dit willen we doen door middel van een laagdrempelig stappenplan.
+Het GWSW komt ingewikkeld over en is dat ook op sommige vlakken. Niet vreemd, het is een heel uitgebreid, gedetailleerd en krachtig informatiemodel. 
+Als je onder de motorkap van een auto kijkt, dan komt dat ook ingewikkeld over. Het is echter niet nodig om precies te begrijpen hoe een auto helemaal werkt, om toch goed en veilig de auto te kunnen besturen. Zo werkt het ook met het GWSW.
 
-Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) beschreven. In de volgende paragraaf staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of 
-zijn dagelijke praktijk (op operationeel niveau) gebruiken. Dit proberen we te doen aan de hand van instructies per rioolobject te geven in de vorm van filmpjes, figuren of teksten. 
+Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) beschreven. In de volgende paragraaf staat de 'hoe' van het GWSW toegelicht. De rest van de website richt zich op de 'wat' van het GWSW: Op welke manier kan een riooldatabeheerder het GWSW in haar of zijn dagelijke praktijk (op operationeel niveau) gebruiken. 
+Dit proberen we te doen aan de hand van instructies per rioolobject te geven in de vorm van filmpjes, figuren of teksten. 
 Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht:
 
 *Logo's van meewerkende leveranciers worden hier ingevoegd*
@@ -30,7 +31,7 @@ Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware 
 # Hoe werkt het GWSW
 ## Algemeen
 
-Het GegevensWoordenboek Stedelijk Water is niets meer dan gezamenlijke afspraken over de taal, de verbanden tussen en de uitwisseling van gegevens die iets te maken hebben met het domein Stedelijk Water. Stichting RIONED heeft dit onderverdeeld in Model, Gegevens en Toepassingen.
+Het GegevensWoordenboek Stedelijk Water is niets meer dan de gezamenlijke afspraken over de taal, de verbanden tussen en de uitwisseling van gegevens die iets te maken hebben met het domein Stedelijk Water. Stichting RIONED heeft dit onderverdeeld in Model, Gegevens en Toepassingen.
 
 Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/) en bestaat uit:
 -	Woordenboek (Ontologie): Hoe noemen we ‘iets’?
@@ -38,12 +39,12 @@ Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/) en bestaat uit:
 
 De Gegevens staan op de GWSW-server en bestaan uit:
 -	Data-omgeving per organisatie
--	In die data-omgeving staan de gegevens van die organisatie opgeslagen conform het GWSW-model
+-	In die data-omgeving staan de vaste rioleringsgegevens van die organisatie opgeslagen conform het GWSW-model
 
 De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en bestaan uit:
 -	Apps voor het uploaden van gegevens naar de GWSW-server
 -	Apps voor het controleren van gegevens op de GWSW-server
--	Apps voor het opvragen van gegevens vanaf de GWSW-server
+-	Apps voor het opvragen van gegevens vanaf de GWSW-server (in allerlei formaten)
 
 ## Illustratief voorbeeld – Een distributiecentrum
 Denk bij het GWSW aan een logistiek distributiecentrum van een bedrijf zoals Coolblue of BOL. Het distributiecentrum is zo ingericht dat het een logische en (daardoor) efficiënte opslag van producten is. Elk product heeft zijn eigen plek. En die plek is daar, omdat:
@@ -70,23 +71,23 @@ Met GWSW Apps kunnen gegevens worden geüpload naar de GWSW-server, worden gecon
 ## Gegevens uploaden naar de GWSW-server
 Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geëxporteerd. Dit is een zogenoemd [GWSW-OroX bestand](https://apps.gwsw.nl/doc/GWSW.orox%20Opbouw%20dataset.pdf) en heeft als bestandsextentie *.ttl*. Dit uitwisselbestand kan via de upload-functionaliteit op [apps.gwsw.nl](https://apps.gwsw.nl/) in de data-omgeving van de betreffende gemeente op de GWSW-server worden gezet. Hiervoor is de naam van de data-omgeving en een wachtwoord (sleutel) nodig. Deze sleutel kan worden opgevraagd via gwsw@rioned.org.
 
-De gegevens uit de kernregistratie van een waterschap worden via het GegevensKnooppunt Waterschappen naar de GWSW-server geüpload. 
+De gegevens uit de kernregistratie van een waterschap worden via het GegevensKnooppunt Waterschappen naar de GWSW-server geüpload. Meer informatie daarover is t krijgen via datastromen@hetwaterschapshuis.nl.
 
 ## Gegevens controleren op de GWSW-server
 De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden gecontroleerd op basiskwaliteit en mate waarin deze voldoen aan de GWSW-standaard. Dit wordt gedaan met behulp van de toepassing [Nulmeting](https://apps.gwsw.nl/item_validate). 
 
-Omdat voor het lezen van het resultatenbestand technische kennis van het GWSW nodig is, kan je hiervoor het beste een [GWSW-adviseur inschakelen](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar).
+Omdat voor het lezen van het resultaatsbestand technische kennis van het GWSW nodig is, kan je hiervoor zo nodig een [GWSW-adviseur inschakelen](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar).
 
 ## Gegevens opvragen van de GWSW-server
 De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden opgevraagd voor gebruik in externe applicaties/programma’s. 
-Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) voor verschillende thema’s worden gedownload of ontsloten.
+Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen zoals GIS en 3D modellen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) volgens verschillende thema’s worden gedownload of ontsloten.
 
 <div id="in_ontwikkeling"></div>
 
 ## GWSW is in ontwikkeling
-Het is goed te beseffen dat het GWSW in ontwikkeling is, voor zowel het woordenboek, het datamodel en de uitwisseling. Met elke nieuwe versie komen er nieuwe mogelijkheden voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
+Het is goed te beseffen dat het GWSW in ontwikkeling blijft. Hoewel al erg goed bruikbaar, zullen zowel het woordenboek, het datamodel en de uitwisseling en toepassingen blijven doorgroeien. Met elke nieuwe versie komen er nieuwe mogelijkheden bij voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
 
-De adoptie van het GWSW is een groeipad voor Stichting RIONED, de leveranciers van beheer- en rekenpakketten en de gebruikers. Dit heeft logischerwijs ook gevolgen voor het gebruik.
+De adoptie van het GWSW is een groeipad voor Stichting RIONED, de leveranciers van beheer- en rekenpakketten en de gebruikers. Dit heeft logischerwijs ook gevolgen voor het gebruik. Duidelijk is wel: meer (willen) toepassen leidt tot meer vraag naar goede implementatie, dus hoe meer leveranciers daaraan doen. 
 
 ### Randvoorwaarden
 Om het gegevensbeheer, -uitwisseling en -gebruik goed aan te laten sluiten op het GWSW zijn er een aantal randvoorwaarden (met verantwoordelijkheid) van toepassing.
@@ -114,9 +115,9 @@ Verder moet het beheerpakket in staat zijn de informatie uit die velden zo te ex
 De leverancier van het beheerpakket moet duidelijkheid verschaffen over welke velden er op welke wijze gevuld moeten worden om de export naar het OroX-uitwisselbestand goed te krijgen.
 
 ### Versies en waarvoor je jouw gegevens wil gebruiken
-Zoals eerder gezegd, is het [**GWSW in ontwikkeling**](#in_ontwikkeling) en zijn er met elke versie van het GWSW meer mogelijkheden. Maar niet al die mogelijkheden zijn persé voor jou relevant. Zo kan het zijn dat jij de gegevens wel wil gebruiken voor visualisatie op PDOK en hydraulische berekeningen, maar dat het maken van afvalwaterprognoses nog niet heel belangrijk voor jou is.
+Zoals eerder gezegd, is en blijft het [**GWSW in ontwikkeling**](#in_ontwikkeling) en zijn er met elke versie van het GWSW meer mogelijkheden. Maar niet al die mogelijkheden zijn persé voor jou relevant. Zo kan het zijn dat jij de gegevens wel wil gebruiken voor visualisatie op PDOK en hydraulische berekeningen, maar dat het maken van afvalwaterprognoses of een 3D-stadsmodel nog niet heel belangrijk voor jou is.
 
-Daarnaast kan het zijn dat de nieuwste versie van het beheerpakket aansluit op een bepaalde versie van het GWSW, maar dat de jullie nog gebruik maken van een oudere versie van het beheerpakket, die aansluit op een oudere versie van het GWSW.
+Daarnaast kan het zijn dat de nieuwste versie van het beheerpakket aansluit op een bepaalde versie van het GWSW, maar dat je nog gebruik maakt van een oudere versie van het beheerpakket, die aansluit op een oudere versie van het GWSW.
 
 Voor jou als riooldatabeheerder is het daarom belangrijk om in beeld te hebben:
 - Welke versie van het beheerpakket je hebt
@@ -126,12 +127,12 @@ Voor jou als riooldatabeheerder is het daarom belangrijk om in beeld te hebben:
 
 Naast de inspanningen van Stichting RIONED, zal ook de gebruiker de behoefte aan verdere implementatie van het GWSW in het beheerpakket nadrukkelijk moeten uitspreken richting de leverancier. Van de leverancier mag worden verwacht dat deze open is over wat wel én wat niet kan. Dus voor welke toepassingen jij jouw gegevens wel én niet kan gebruiken.
 
-De applicatietoetsing – die elke twee jaar door Stichting RIONED wordt uitgevoerd – is bedoeld om de kwaliteit en consistentie van de GWSW-implementatie in softwareapplicaties te bepalen. De resultaten zijn echter een momentopname en gericht op de nieuwste versie van de software. In de eerste helft van 2025 staat de applicatietoetsing gepland.
+De applicatietoetsing – die elke twee jaar door Stichting RIONED wordt uitgevoerd – is bedoeld om de kwaliteit en consistentie van de GWSW-implementatie in softwareapplicaties te bepalen. De resultaten zijn  een momentopname en gericht op de nieuwste versie van de software. In de eerste helft van 2025 staat de volgende ronde van de applicatietoetsing gepland.
 
 <div id="versie_beheerpakket"></div>
 
 ### Welke versie heeft mijn beheerpakket?
-Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van toepassing zijn. Dit zegt helaas niets over hoe goed de betreffende OroX is en voor welke toepassingen die dan geschikt is. Die informatie komt wel uit de Applicatietoetsing naar voren.
+Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van toepassing zijn. Dit zegt helaas niets over hoe goed de betreffende OroX exportbestand is en voor welke toepassingen die geschikt is. Die informatie komt wel uit de applicatietoetsing naar voren.
 
 Lijst van beheerpakketten:
 - [Brutis/Kikker](#brutis_versie)
@@ -139,6 +140,8 @@ Lijst van beheerpakketten:
 - [Geovisia](#geovisia_versie)
 - [Gisib](#gisib_versie)
 - [Riogl/Obsurv](#riogl_versie)
+- iAsset
+- GB Beheer
 
 Mocht jouw beheerpakket ontbreken in dit overzicht, neem dan contact op met gwsw@rioned.org
 
@@ -195,11 +198,11 @@ pm
 ## Zet jouw gegevens goed en GWSW-conform in het beheerpakket
 
 ### Inleiding
-Gegevens kunnen enkel uitgewisseld worden, als deze (goed) in het beheerpakket staan. Bestaat een veld niet in het ‘distributiecentrum’ (datamodel) van het beheerpakket, dan kan deze ook niet worden ingevuld door de gebruiker. Hierover ging de [vorige paragraaf](#versie_beheerpakket) (Paragraaf 3.2). 
+Gegevens kunnen enkel uitgewisseld worden als deze (goed) in het beheerpakket staan. Bestaat een veld niet in het ‘distributiecentrum’ (datamodel) van het beheerpakket, dan kan deze ook niet worden ingevuld door de gebruiker. Hierover ging de [vorige paragraaf](#versie_beheerpakket) (Paragraaf 3.2).
 
-Is een veld leeg, dan zal dit veld ook als ‘leeg’ worden meegenomen in de uitwisseling. Is een veld ingevuld met een ‘foute’ waarde (bijv. 999 wat vaak gebruikt wordt voor ‘onbekend’), dan zal dit veld ook als waarde ‘999’ worden meegenomen in de uitwisseling. Andere voorbeelden van ‘foute’ waarden zijn fouten door de eenheid (opslaan in millimeter, terwijl het pakket dat veld registreert in de eenheid meter) of door foute of onvolledige naamgeving (‘put’ in plaats van ‘inspectieput’). Kortom de **volledigheid** en **kwaliteit** van de geregistreerde gegevens moeten voldoende zijn om het gewenste resultaat te krijgen. De exportfunctionaliteit van het beheerpakket naar het OroX-exportbestand voert geen controles of correcties uit op de te exporteren gegevens.
+Is een veld leeg, dan zal dit veld ook als ‘leeg’ worden meegenomen in de uitwisseling. Is een veld ingevuld met een ‘foute’ waarde (bijv. 999 wat vaak gebruikt wordt voor ‘onbekend’), dan zal dit veld ook als waarde ‘999’ worden meegenomen in de uitwisseling. Andere voorbeelden van ‘foute’ waarden zijn fouten door de eenheid (opslaan in millimeter, terwijl het pakket dat veld registreert in de eenheid meter) of door foute of onvolledige naamgeving (‘put’ in plaats van ‘inspectieput’). Kortom de **volledigheid** en **kwaliteit** van de geregistreerde gegevens moeten voldoende zijn om het gewenste resultaat te krijgen. De exportfunctionaliteit van het beheerpakket naar het OroX-exportbestand voert geen controles of correcties uit op de te exporteren gegevens (behalve vaste omrekeningen naar GWSW-eenheden).
 
-Daarnaast is het vaak zo dat de stelselgegevens in het beheerpakket zitten maar dat kunstwerken op een andere manier worden geregistreerd, zoals in GIS, excelbestanden, telemetriesysteem of gemalenbeheerprogramma’s. De (gegevens van) objecten die niet in het (stelsel-)beheerpakket zitten, komen dus ook niet met de export uit het beheerpakket mee. Helaas is het zo dat die andere registraties (nog) niet zijn aangesloten op het GWSW. Dus ook vanuit die registraties kunnen de gegevens niet GWSW-conform worden uitgewisseld.
+Daarnaast is het vaak zo dat wel de stelselgegevens in het beheerpakket zitten, maar dat kunstwerken op een andere manier worden geregistreerd zoals in GIS, excelbestanden, telemetriesysteem of gemalenbeheerprogramma’s. De (gegevens van) objecten die niet in het (stelsel-)beheerpakket zitten, komen dus ook niet met de export uit het beheerpakket mee. Helaas is het zo dat die andere registraties (nog) niet zijn aangesloten op het GWSW. Dus ook vanuit die registraties kunnen de gegevens niet GWSW-conform worden uitgewisseld. Gemeenten zouden wel hun leveranciers daar naar kunnen vragen.
 
 Dus wat kan jij, als riooldatabeheerder, doen om het gegevensbeheer in het beheerpakket zo doelmatig mogelijk in te richten, waarmee de gegevens aansluiten op het GWSW? Hiervoor hebben we een werkwijze voorzien van een stappenplan beschikbaar, waarmee jij kan bepalen op welke manier jij te werk wil gaan.
 
