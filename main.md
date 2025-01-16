@@ -265,16 +265,16 @@ Het GegevensWoordenboek Stedelijk Water is [online](https://data.gwsw.nl/1.6.1/T
 
 *Figuur 4.1 GWSW structuur op data.gwsw.nl*
 
-Alle termen (concepten genoemd) die onder die tak zitten, zijn de officiële termen die in het GWSW zitten. Door op een term te klikken, kom je in het overzichtsveld van die term uit, waarin vaak een definitie en/of synoniem en/of afbeelding is opgenomen van die term. Let op: Navigeren doe je via de soortenboom of het broodkruimelpad (Figuur 4.2) en niet via de pagina-terug-knop van de browser.
+Alle termen (concepten genoemd) die onder die tak zitten, zijn de officiële termen die in het GWSW zitten. Door op een term te klikken, kom je in het overzichtsveld van die term uit, waarin vaak een definitie en/of synoniem en/of afbeelding is opgenomen van die term. Let op: Navigeren doe je via de soortenboom of het broodkruimelpad (Figuur 4.2) en niet via de pagina-terug-knop van de browser. Je kunt voor een totaaloverzicht de soortenboom ook helemaal uitklappen met het knopje "Vouw open". Als je specifieke zaken wilt opzoeken, gebruik dan de zoekfunctie rechtsboven op de pagina.
 
 <img src="media/figuur42_broodkruimelpad.jpg" style="width:50%;height:50%" />
 
 *Figuur 4.2 Broodkruimelpad*
 
-Je kunt kiezen uit ‘de smaken’ van de soortenboom als je de terminologie gaat verbeteren. Let wel: Niet alles wat in de soortenboom zit, ‘moet’ in jouw gegevens te zitten. Maar als het erin zit, moet je het wel zo noemen in de export naar de GWSW-server.
+Je kunt kiezen uit ‘de smaken’ van de soortenboom als je de terminologie gaat verbeteren. Let wel: Niet alles wat in de soortenboom zit, ‘moet’ in jouw gegevens te zitten. Maar als het in jouw dataset zit, moet je het wel volgens het GWSW noemen in de export naar de GWSW-server.
 
 ### Mapping in de beheersoftware
-Sommige beheersoftware biedt de mogelijkheid aan om naamgeving te koppelen aan GWSW concepten.
+Sommige beheersoftware biedt de mogelijkheid om naamgeving te koppelen aan GWSW concepten.
 
 In **Brutis** kan er een mapping worden aangemaakt waarin de koppeling wordt gelegd tussen de huidige naamgeving (in Brutis) en hoe het meegegeven moet worden in de export naar de GWSW-server (Figuur 4.3). Vanuit het principe ‘data bij de bron beheren’ is het advies om de objecten GWSW-conform te noemen in het beheerpakket.
 
@@ -290,7 +290,7 @@ De terminologie van het GWSW moet exact zo worden geïmporteerd naar de GWSW-ser
 ### Putten
 **Typologie put**
 
-In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat tot welk niveau dit in <ins>ieder geval</ins> moet gebeuren, dieper mag altijd.
+In het GWSW moet een put tot op een bepaald niveau worden getypeerd. Hoe dieper in de GWSW-boom, hoe beter. Hieronder staat uitgelegd tot welk niveau dit <ins>in ieder geval</ins> moet gebeuren, dieper (meer detail) mag altijd.
 
 - Beerput
 - Bijzondere putconstructie
@@ -314,7 +314,7 @@ Een pompput is een rioolput bestemd voor het verpompen van afvalwater. Een pompu
 
 **Materiaal put**
 
-Een put kan bestaan uit de volgende materialen:
+Een put kan bestaan uit de volgende materialen. Deze uitgebreide lijst komt uit de EN 13508-2 en is daarom geheel overgenomen, hoewel meerdere materialen in Nederland niet of nauwelijks gebruikt worden. De gebruikersinterface van de beheersoftware kan hieruit dus een selectie tonen.
 
 - Asbestcement
 - Cementmortel
@@ -356,7 +356,7 @@ Een put kan de volgende vorm hebben:
 
 **Maaiveldschematisering**
 
-Van een put moet worden opgenomen hoe deze kan uitwisselen met het maaiveld. Uit de volgende waarden kan je kiezen:
+Van een put moet worden opgenomen hoe deze kan uitwisselen met het maaiveld. Je kan uit de volgende waarden kiezen:
 
 - Gekneveld
 - Reservoir
@@ -396,7 +396,7 @@ De leidingen die nu zijn voorzien van de typologie ‘Vrijverval rioolleiding’
 
 **Materiaal leiding**
 
-Een leiding kan bestaan uit de volgende materialen:
+Een leiding kan bestaan uit de volgende materialen. Deze uitgebreide lijst komt uit de EN 13508-2 en is daarom geheel overgenomen, hoewel meerdere materialen in Nederland niet of nauwelijks gebruikt worden. De gebruikersinterface van de beheersoftware kan hieruit dus een selectie tonen.
 
 - Asbestcement
 - Cementmortel
@@ -456,7 +456,7 @@ Een leiding kan de volgende vorm hebben:
 ## Stap 2: Verbeter de gegevenskwaliteit
 
 ### Datatype
-De meeste getallen in het GWSW moeten worden opgegeven als een ‘Integer’ waardetype. Dat betekent een getal zonder decimalen met een bepaalde eenheid (bijvoorbeeld mm). Niveaus worden doorgaans met decimalen in m NAP vastgelegd. Deze informatie staat vermeld op de GWSW-website bij de het Waardetype van de term (Figuur 4.4).
+De meeste getallen in het GWSW moeten worden opgegeven als een ‘Integer’ waardetype. Dat betekent een getal zonder decimalen met een bepaalde eenheid (bijvoorbeeld mm). Niveaus worden doorgaans met decimalen in m NAP vastgelegd. Deze informatie staat vermeld op de GWSW-website bij de het Waardetype van elke term (Figuur 4.4). Beheersoftware kan overigens (nog) kiezen voor vastleggen in een andere eenheid en bij omzetting naar een exportbestand een omrekening doen. 
 
 <img src="media/figuur44_datatype.jpg" style="width:50%;height:50%" />
 
@@ -478,8 +478,6 @@ Sorteer op lengte en kijk welke putten er een waarde hebben van <300 mm en > 4.0
 
 Van een leiding moet de lengte, breedte (of diameter) en hoogte worden opgegeven. Let hierbij op de eenheid (lengte in m met decimalen, breedte/hoogte/diameter in mm zonder decimalen).
 
-De lengte van een vrijverval leiding moet tussen de 1 en 75 meter liggen, anders wordt deze ‘geflagged’ door de GWSW-nulmeting. De hoogte/breedte/diameter van een leiding moet tussen de 63 en 4.000 mm liggen.
-
 Werkwijze is hetzelfde als bij de putten. Bepaal voor welke objecten dit geldt, en pas, na beoordeling, de waarde aan. Afwijkingen zijn vaak te zien bij bergbezinkbassins en infiltratiekratten.
 
 **Diepteligging van een leiding**
@@ -492,7 +490,7 @@ Van een leiding moet ook de binnen onderkant buis (BOB, als niveau t.o.v. NAP) w
 ### Gemalen
 Gemalen worden doorgaans beheerd in een apart gemalenbeheerprogramma. Daar zal dan ook informatie over type gemaal en pomp zijn opgenomen. Omdat deze informatie niet is vastgelegd in het stelsel-beheerpakket, wordt dat ook niet meegegeven in het GWSW-OroX-uitwisselbestand.
 
-Wat vaak wel is vastgelegd in het beheerpakket zijn de locaties van de pompputten. Door de typering van de put goed te zetten (zie Paragraaf ‘Typologie put’), kan er in ieder geval daarop worden getoetst en kan de informatie gebruikt worden om onderscheid te maken tussen de verschillende puttypen met bijbehorende kunstwerken. 
+Wat vaak wel is vastgelegd in het beheerpakket zijn de locaties van de pompputten. Door de typering van de put goed te zetten (zie Paragraaf ‘Typologie put’) kan er in ieder geval daarop worden getoetst en kan de informatie gebruikt worden om onderscheid te maken tussen de verschillende puttypen met bijbehorende kunstwerken.
 
 ### Stromingsrichting bij kunstwerken
 Kunstwerken waar een terugslagklep of een afsluiter zit, daar moet de stromingsrichting worden gedefinieerd. De stromingsrichting legt in de gegevens vast in welke richting het water kan stromen. Dit is vaak bij doorlaten, overstortdrempels en stuwmuren het geval. Hiervoor is keuze uit de onderstaande opties:
@@ -525,6 +523,7 @@ In het GWSW moet het verbindingstype tussen de leidingen conform de juiste termi
 
 ## Stap 4: Verbeter de schematisatie
 Een laatste stap kan zijn om de schematisatie van de gegevens in het beheerpakket geschikt te maken voor volledige uitwisseling ten behoeve van hydraulisch modelleren en (later) het opstellen van afvalwaterprognoses. 
+
 Om de schematisatie te verbeteren, moeten wel eerst de voorgaande stappen (Terminologie en Plausibiliteit) zijn uitgevoerd. Zolang de uiteindelijke schematisatie in het beheerpakket nog complex is (geldt met name voor de overige bijzondere voorzieningen) en de export vanuit het beheerpakket daar ook niet goed mee om kan gaan, is het beter om hier nog geen tijd in te steken.
 
 ### Putten
@@ -532,3 +531,8 @@ Bepaald type putten moet bestaan uit verschillende onderdelen. Een Overstortput 
 
 ### Overige bijzondere voorzieningen
 Bergbezinkbassin en infiltratiebassins bestaan uit verschillende onderdelen. Het gaat nu te ver om een volledige schematisatie van dat soort voorzieningen uit te schrijven als voorbeeld. Om je toch een idee te geven: Een bergbezinkbassin bestaat uit verschillende compartimenten in putten, die verbonden zijn via leidingen, overstortdrempels, ledigingsvoorziening en spoelvoorziening.
+
+# Vragen en reacties? Neem contact op
+Als er vragen en reacties zijn over of naar aanleiding van dit stappenplan, mail dan naar gwsw@rioned.org. We helpen graag met algemene instructies. Ook horen we graag tips ter verbetering van dit stappenplan. Dank alvast!
+
+Gemeenten die meer ondersteuning willen bij het toepassen en implementeren van het GWSW, schakel dan een door Stichting RIONED opgeleide GWSW-adviseur in. U kunt hun namen en mailadressen vinden via https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar.
