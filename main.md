@@ -11,7 +11,7 @@ Vragen over deze website en het GWSW kunt u stellen via gwsw@rioned.org.
 
 Het GegevensWoordenboek Stedelijk Water (GWSW) is een woordenboek van objecten en processen op het gebied van stedelijk (afval)waterbeheer en dan met name de riolering. In dit woordenboek staan naast stedelijk water objecten ook hun kenmerken en onderlinge relaties beschreven. 
 
-Met het GWSW spreekt iedereen dezelfde taal en kan informatie makkelijk worden uitgewisseld. Het GWSW geeft ons vakgebied een gezamenlijke digitale taal (een datastandaard). Dit maakt beter rioolbeheer mogelijk. Op de site van Stichting RIONED staat de ['waarom'](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) van het GWSW beschreven.
+Met het GWSW spreekt iedereen dezelfde taal en kan informatie makkelijk worden uitgewisseld. Het GWSW geeft ons vakgebied een gezamenlijke digitale taal (een datastandaard). Dit maakt beter rioolbeheer mogelijk. Op de site van Stichting RIONED staat de [**'waarom'**](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water/waarom-gwsw-) van het GWSW beschreven.
 
 <img src="media/help.jpg" style="width:50%;height:50%" />
 
@@ -39,9 +39,9 @@ In [**Hoofdstuk 2**](#H2) wordt een stappenplan gepresenteerd waarmee jij als ri
 
 ## Inleiding
 
-In dit stappenplan staat beschreven hoe jij jouw riooldata de GWSW-naamgeving (terminologie) kan meegeven en de kwaliteit van de gegevens kan verbeteren. Om dit goed te kunnen snappen wordt er in [**stap 1**](#stap1) eerst een korte toelichting gegeven op het GWSW-datamodel. Daarna wordt in [**stap 2**](#stap2) uitgelegd wat de 'smaken' zijn in die naamgeving, dus waar jij als riooldatabeheerder uit kan kiezen. In [**stap 3**](#stap3) staan de aandachtspunten en mogelijkheden beschreven om de gegevenskwaliteit verder te verbeteren. Welke andere verbeteringen/aanvullingen er op de riooldata mogelijk zijn wat betreft het GWSW staat in [**stap 4**](#stap4). De [**laatste stap**](#stap5) is voor de echte fanatiekeling/specialist. Deze gaat namelijk in op hoe jij de schematisatie van bijzondere objecten beter in jouw beheerpakket kan vastleggen.
+In dit stappenplan staat beschreven hoe jij jouw riooldata de GWSW-naamgeving (terminologie) kan meegeven en de kwaliteit van de gegevens kan verbeteren. Om dit goed te kunnen snappen wordt er in [**stap 1**](#stap1) eerst een korte toelichting gegeven op het GWSW-datamodel. Daarna wordt in [**stap 2**](#stap2) uitgelegd wat de 'smaken' zijn in die naamgeving, dus waar jij als riooldatabeheerder uit kan kiezen. In [**stap 3**](#stap3) staan de aandachtspunten en mogelijkheden beschreven om de gegevenskwaliteit verder te verbeteren. Welke andere verbeteringen/aanvullingen er op de riooldata mogelijk zijn wat betreft het GWSW staat in [**stap 4**](#stap4). De [**laatste stap**](#stap5) gaat in op hoe jij de schematisatie van bijzondere objecten in jouw beheerpakket kan vastleggen.
 
-Hoe jij dit uiteindelijk letterlijk in jouw beheerpakket moet aanpassen proberen we uit te leggen aan de hand van instructies per rioolobject in de vorm van filmpjes, figuren en teksten (*WERK IN UITVOERING*). Hiervoor is de samenwerking met de onderstaande leveranciers van beheersoftware gezocht:
+Hoe jij dit uiteindelijk letterlijk in jouw beheerpakket moet aanpassen proberen we uit te leggen aan de hand van instructies per rioolobject in de vorm van filmpjes, figuren en teksten (*WERK IN UITVOERING*). Hiervoor is er een samenwerking met de onderstaande leveranciers van beheerpakketten geweest:
 
 *Logo’s van meewerkende leveranciers worden hier ingevoegd* 
 
@@ -49,7 +49,7 @@ Hoe jij dit uiteindelijk letterlijk in jouw beheerpakket moet aanpassen proberen
 
 ## Stap 1: Begrijp het GWSW-datamodel een beetje
 
-Het GegevensWoordenboek Stedelijk Water is [online](https://data.gwsw.nl/1.6.1/Totaal/index.html?menu_item=classes) te vinden. Aan de linkerkant zit een boomstructuur, waarbij Fysiek Object relevant is voor de gegevens in het beheerpakket (Figuur 2.1). 
+Het GegevensWoordenboek Stedelijk Water is [**online**](https://data.gwsw.nl/1.6.1/Totaal/index.html?menu_item=classes) te vinden. Aan de linkerkant zit een boomstructuur, waarbij Fysiek Object relevant is voor de gegevens in het beheerpakket (Figuur 2.1). 
 
 <img src="media/figuur41_datastructuur.jpg" style="width:50%;height:50%" />
 
@@ -333,7 +333,7 @@ Bergbezinkbassin en infiltratiebassins bestaan uit verschillende onderdelen. Het
 
 Het GegevensWoordenboek Stedelijk Water is niets meer dan de gezamenlijke afspraken over de taal, de verbanden tussen en de uitwisseling van gegevens die iets te maken hebben met het domein Stedelijk Water. Stichting RIONED heeft dit onderverdeeld in Model, Gegevens en Toepassingen.
 
-Het Model staat op [data.gwsw.nl](https://data.gwsw.nl/) en bestaat uit:
+Het Model staat op [**data.gwsw.nl**](https://data.gwsw.nl/) en bestaat uit:
 -	Woordenboek (Ontologie): Hoe noemen we ‘iets’?
 -	Datastructuur (Datamodel): Hoe zijn de verbanden of relaties tussen die ‘iets-en’?
 
@@ -341,7 +341,7 @@ De Gegevens staan op de GWSW-server en bestaan uit:
 -	Data-omgeving per organisatie
 -	In die data-omgeving staan de vaste rioleringsgegevens van die organisatie opgeslagen conform het GWSW-model
 
-De Toepassingen (applicaties) staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en bestaan uit:
+De Toepassingen (applicaties) staan op [**apps.gwsw.nl**](https://apps.gwsw.nl/) en bestaan uit:
 -	Apps voor het uploaden van gegevens naar de GWSW-server
 -	Apps voor het controleren van gegevens op de GWSW-server
 -	Apps voor het opvragen van gegevens vanaf de GWSW-server (in allerlei formaten)
@@ -369,23 +369,23 @@ Om gebruik te kunnen maken van de voordelen van het GWSW moeten de gegevens vanu
 Met GWSW Apps kunnen gegevens worden geüpload naar de GWSW-server, worden gecontroleerd en worden opgevraagd vanaf de GWSW-server:
 
 ### Gegevens uploaden naar de GWSW-server
-Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geëxporteerd. Dit is een zogenoemd [GWSW-OroX bestand](https://apps.gwsw.nl/doc/GWSW.orox%20Opbouw%20dataset.pdf) en heeft als bestandsextentie *.ttl*. Dit uitwisselbestand kan via de upload-functionaliteit op [apps.gwsw.nl](https://apps.gwsw.nl/) in de data-omgeving van de betreffende gemeente op de GWSW-server worden gezet. Hiervoor is de naam van de data-omgeving en een wachtwoord (sleutel) nodig. Deze sleutel kan worden opgevraagd via gwsw@rioned.org.
+Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geëxporteerd. Dit is een zogenoemd [**GWSW-OroX bestand**](https://apps.gwsw.nl/doc/GWSW.orox%20Opbouw%20dataset.pdf) en heeft als bestandsextentie *.ttl*. Dit uitwisselbestand kan via de upload-functionaliteit op [**apps.gwsw.nl**](https://apps.gwsw.nl/) in de data-omgeving van de betreffende gemeente op de GWSW-server worden gezet. Hiervoor is de naam van de data-omgeving en een wachtwoord (sleutel) nodig. Deze sleutel kan worden opgevraagd via gwsw@rioned.org.
 
 De gegevens uit de kernregistratie van een waterschap worden via het GegevensKnooppunt Waterschappen naar de GWSW-server geüpload. Meer informatie daarover is te krijgen via datastromen@hetwaterschapshuis.nl.
 
 ### Gegevens controleren op de GWSW-server
-De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden gecontroleerd op basiskwaliteit en mate waarin deze voldoen aan de GWSW-standaard. Dit wordt gedaan met behulp van de toepassing [Nulmeting](https://apps.gwsw.nl/item_validate). 
+De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden gecontroleerd op basiskwaliteit en mate waarin deze voldoen aan de GWSW-standaard. Dit wordt gedaan met behulp van de toepassing [**Nulmeting**](https://apps.gwsw.nl/item_validate). 
 
-Omdat voor het lezen van het resultaatsbestand technische kennis van het GWSW nodig is, kan je hiervoor zo nodig een [GWSW-adviseur inschakelen](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar).
+Omdat voor het lezen van het resultaatsbestand technische kennis van het GWSW nodig is, kan je hiervoor zo nodig een [**GWSW-adviseur inschakelen**](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar).
 
 ### Gegevens opvragen van de GWSW-server
 De gegevens die in de data-omgeving op de GWSW-server staan kunnen worden opgevraagd voor gebruik in externe applicaties/programma’s. 
-Voor het maken van hydraulische berekeningen kunnen de gegevens in [.hydx formaat worden gedownload](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen zoals GIS en 3D modellen kunnen er diverse [Geo-formaten](https://apps.gwsw.nl/item_geo) volgens verschillende thema’s worden gedownload of ontsloten.
+Voor het maken van hydraulische berekeningen kunnen de gegevens in [**.hydx formaat worden gedownload**](https://apps.gwsw.nl/item_hydxdownload). Voor andere toepassingen zoals GIS en 3D modellen kunnen er diverse [**Geo-formaten**](https://apps.gwsw.nl/item_geo) volgens verschillende thema’s worden gedownload of ontsloten.
 
 <div id="in_ontwikkeling"></div>
 
 ## GWSW is in ontwikkeling
-Het is goed te beseffen dat het GWSW in ontwikkeling blijft. Hoewel al erg goed bruikbaar, zullen zowel het woordenboek, het datamodel en de uitwisseling en toepassingen blijven doorgroeien. Met elke nieuwe versie komen er nieuwe mogelijkheden bij voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [De huidige versie is 1.6.1](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
+Het is goed te beseffen dat het GWSW in ontwikkeling blijft. Hoewel al erg goed bruikbaar, zullen zowel het woordenboek, het datamodel en de uitwisseling en toepassingen blijven doorgroeien. Met elke nieuwe versie komen er nieuwe mogelijkheden bij voor het gebruik van de gegevens, dus ook nieuwe definities en nieuwe relaties. [**De huidige versie is 1.6.1**](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/huidige-versie-gwsw-en-planning/deze-gwsw-eisen-stelt-u-bij-aanschaf-van-nieuwe-software).
 
 De adoptie van het GWSW is een groeipad voor Stichting RIONED, de leveranciers van beheer- en rekenpakketten en de gebruikers. Dit heeft logischerwijs ook gevolgen voor het gebruik. Duidelijk is wel: meer (willen) toepassen leidt tot meer vraag naar goede implementatie, dus hoe meer leveranciers daaraan doen. 
 
@@ -560,6 +560,6 @@ Stel op basis van bovenstaande punten een Plan van Aanpak op met daarin:
 Regel op basis van dit Plan van Aanpak het benodigde budget/tijd.
 
 # Vragen en reacties? Neem contact op
-Deze website is nog werk-in-uitvoering en we staan ernom open voor aanvullingen, correcties en suggesties. Ook als er vragen en reacties zijn over of naar aanleiding van dit stappenplan, mail dan naar gwsw@rioned.org. We helpen graag met algemene instructies. Dank alvast!
+Deze website is nog *werk in uitvoering* en we staan heel erg open voor aanvullingen, correcties en suggesties. Ook als er vragen of andere reacties zijn op dit stappenplan, dan horen wij dit graag. Mail dan naar gwsw@rioned.org. Dank alvast!
 
 Gemeenten die meer ondersteuning willen bij het toepassen en implementeren van het GWSW, schakel dan een door Stichting RIONED opgeleide GWSW-adviseur in. Je kan hun namen en mailadressen vinden via https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water-gwsw/gwsw-ondersteuning-beschikbaar.
